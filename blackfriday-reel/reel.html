@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<title>Fix face Black Friday</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root{
+    --gold1:#f6e7c1; --gold2:#d9b36c; --gold3:#a87b33;
+    --ink:#060606;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1080px;height:1920px;background:#000;overflow:hidden}
+  #stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ink);
+    font-family:'Inter Display','Inter',sans-serif;color:#fff}
+  .abs{position:absolute;left:0;top:0;width:100%;height:100%}
+  .center{display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .scene{position:absolute;inset:0;opacity:0}
+  .el{position:absolute;left:50%;width:max-content;transform-origin:50% 50%;white-space:nowrap;will-change:transform}
+  .gold{background:linear-gradient(170deg,var(--gold1) 0%,var(--gold2) 45%,var(--gold3) 70%,var(--gold1) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .serif{font-family:'Playfair Display',serif}
+  #bgGlow{position:absolute;width:1600px;height:1600px;left:-260px;top:160px;border-radius:50%;
+    background:radial-gradient(circle,rgba(217,179,108,.28) 0%,rgba(217,179,108,.08) 35%,rgba(0,0,0,0) 65%)}
+  #bgGlow2{position:absolute;width:1200px;height:1200px;left:200px;top:900px;border-radius:50%;
+    background:radial-gradient(circle,rgba(255,255,255,.10) 0%,rgba(0,0,0,0) 60%)}
+  #invert{position:absolute;inset:0;background:#f4f1ea;opacity:0}
+  #flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+  #grain{position:absolute;inset:-200px;opacity:.09;pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>")}
+  #vignette{position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 55%,rgba(0,0,0,.75) 100%)}
+  canvas{position:absolute;inset:0}
+
+  /* top marquee */
+  #marquee{position:absolute;left:0;top:190px;width:100%;height:64px;overflow:hidden;opacity:0;
+    border-top:1.5px solid rgba(217,179,108,.55);border-bottom:1.5px solid rgba(217,179,108,.55)}
+  #marqueeTrack{position:absolute;top:0;left:0;height:64px;display:flex;align-items:center;
+    font-weight:700;font-size:28px;letter-spacing:.32em;color:var(--gold1);white-space:nowrap}
+
+  /* S1 */
+  .bfWord{font-weight:900;font-size:250px;letter-spacing:-.02em;line-height:1}
+  .outline{color:transparent;-webkit-text-stroke:5px #fff}
+  .line{position:absolute;left:50%;height:4px;background:linear-gradient(90deg,rgba(217,179,108,0),var(--gold2),rgba(217,179,108,0))}
+  .smallcaps{font-weight:600;font-size:40px;letter-spacing:.45em}
+
+  /* S2 */
+  .pill{padding:26px 54px;border-radius:999px;background:#fff;color:#000;font-weight:800;font-size:54px;letter-spacing:.08em}
+  .pillGold{background:linear-gradient(135deg,var(--gold1),var(--gold2) 55%,var(--gold3));color:#140d02}
+
+  /* S4 */
+  .feat{left:110px;font-size:58px;font-weight:700;display:flex;align-items:center;gap:30px;transform-origin:0 50%}
+  .feat .star{font-size:50px}
+  .feat .ln{display:block;width:0}
+  .tag{position:absolute;width:150px;height:150px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-weight:900;font-size:44px;color:#140d02;
+    background:linear-gradient(135deg,var(--gold1),var(--gold2) 55%,var(--gold3));box-shadow:0 10px 40px rgba(0,0,0,.6)}
+  .prod{position:absolute;transform-origin:50% 100%}
+
+  .ink{color:#0a0a0a}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bgGlow"></div><div id="bgGlow2"></div>
+  <div id="invert"></div>
+  <canvas id="dust" width="1080" height="1920"></canvas>
+
+  <div id="shake" class="abs">
+    <!-- SCENE 1 : BLACK FRIDAY -->
+    <div id="s1" class="scene">
+      <div id="s1heart" class="el" style="top:470px;font-size:90px">🖤</div>
+      <div id="s1black" class="el bfWord" style="top:640px">BLACK</div>
+      <div id="s1friday" class="el bfWord outline" style="top:900px">FRIDAY</div>
+      <div id="s1line" class="line" style="top:1190px;width:860px;margin-left:-430px"></div>
+      <div id="s1brand" class="el serif" style="top:1230px;font-style:italic;font-weight:700;font-size:96px">Fix face</div>
+    </div>
+
+    <!-- SCENE 2 : 27 NOYABR -->
+    <div id="s2" class="scene">
+      <div id="s2cal" class="el smallcaps" style="top:420px;color:var(--gold1)">📅 &nbsp;TARİXİ YADDA SAXLAYIN</div>
+      <div id="s2num" class="el serif gold" style="top:470px;font-weight:900;font-size:640px;line-height:1.05">27</div>
+      <div id="s2month" class="el" style="top:1150px;transform:translateX(-50%);font-weight:900;font-size:150px;letter-spacing:.18em;display:flex"></div>
+      <div id="s2pill" class="el pill" style="top:1380px">XÜSUSİ ENDİRİM GÜNÜ</div>
+    </div>
+
+    <!-- SCENE 3 : 50% -->
+    <div id="s3" class="scene">
+      <svg id="s3ring" class="el" width="980" height="980" style="top:470px" viewBox="0 0 980 980">
+        <defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#f6e7c1"/><stop offset=".5" stop-color="#d9b36c"/><stop offset="1" stop-color="#a87b33"/></linearGradient></defs>
+        <circle cx="490" cy="490" r="455" fill="none" stroke="url(#rg)" stroke-width="3" stroke-dasharray="6 18" opacity=".8"/>
+        <circle id="s3arc" cx="490" cy="490" r="420" fill="none" stroke="url(#rg)" stroke-width="10" stroke-linecap="round"
+          stroke-dasharray="2639" stroke-dashoffset="2639" transform="rotate(-90 490 490)"/>
+      </svg>
+      <div id="s3top1" class="el smallcaps" style="top:330px;font-size:42px">🔥 İLİN ƏN BÖYÜK</div>
+      <div id="s3top2" class="el serif" style="top:390px;font-style:italic;font-weight:700;font-size:84px">endirim fürsəti</div>
+      <div id="s3big" class="el" style="top:640px;display:flex;align-items:flex-start">
+        <span id="s3num" class="gold" style="font-weight:900;font-size:420px;line-height:1;letter-spacing:-.04em">0</span>
+        <span class="gold" style="font-weight:900;font-size:230px;line-height:1.05;margin-left:6px">%</span>
+      </div>
+      <div id="s3dek" class="el serif" style="top:1080px;font-style:italic;font-weight:700;font-size:120px">-dək</div>
+      <div id="s3end" class="el bfWord outline" style="top:1290px;font-size:170px;-webkit-text-stroke:4px #fff">ENDİRİM</div>
+    </div>
+
+    <!-- SCENE 4 : PRODUCTS + OFFERS -->
+    <div id="s4" class="scene">
+      <div id="s4t1" class="el serif" style="top:300px;font-style:italic;font-weight:700;font-size:76px">Sevdiyiniz estetik məhsullar</div>
+      <div id="s4t2" class="el" style="top:400px;font-weight:600;font-size:44px;letter-spacing:.2em;color:var(--gold1)">DAHA SƏRFƏLİ QİYMƏTLƏRLƏ</div>
+
+      <!-- serum dropper -->
+      <svg id="p1" class="prod" width="230" height="560" viewBox="0 0 230 560" style="left:110px;top:520px">
+        <defs>
+          <linearGradient id="glass" x1="0" x2="1"><stop offset="0" stop-color="#1b1b1b"/><stop offset=".18" stop-color="#3a3a3a"/><stop offset=".35" stop-color="#121212"/><stop offset=".85" stop-color="#0b0b0b"/><stop offset="1" stop-color="#2a2a2a"/></linearGradient>
+          <linearGradient id="goldM" x1="0" x2="1"><stop offset="0" stop-color="#8a6326"/><stop offset=".3" stop-color="#f6e7c1"/><stop offset=".55" stop-color="#d9b36c"/><stop offset="1" stop-color="#7a5520"/></linearGradient>
+          <linearGradient id="rub" x1="0" x2="1"><stop offset="0" stop-color="#0a0a0a"/><stop offset=".3" stop-color="#2c2c2c"/><stop offset="1" stop-color="#050505"/></linearGradient>
+        </defs>
+        <path d="M80 20 Q115 -8 150 20 L150 120 L80 120 Z" fill="url(#rub)"/>
+        <rect x="62" y="118" width="106" height="70" rx="6" fill="url(#goldM)"/>
+        <rect x="20" y="186" width="190" height="360" rx="34" fill="url(#glass)" stroke="#444" stroke-width="2"/>
+        <rect x="42" y="300" width="146" height="150" rx="6" fill="#f4f1ea"/>
+        <text x="115" y="360" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="700" font-size="34" fill="#111">Fix face</text>
+        <line x1="65" y1="382" x2="165" y2="382" stroke="#b38a45" stroke-width="2"/>
+        <text x="115" y="418" text-anchor="middle" font-family="Inter Display" font-weight="600" font-size="17" letter-spacing="4" fill="#333">SERUM</text>
+        <rect x="34" y="200" width="16" height="320" rx="8" fill="#fff" opacity=".10"/>
+      </svg>
+
+      <!-- cream jar -->
+      <svg id="p2" class="prod" width="320" height="330" viewBox="0 0 320 330" style="left:380px;top:750px">
+        <rect x="18" y="20" width="284" height="96" rx="20" fill="url(#goldM)"/>
+        <rect x="18" y="96" width="284" height="20" fill="#000" opacity=".25"/>
+        <rect x="10" y="112" width="300" height="208" rx="34" fill="url(#glass)" stroke="#444" stroke-width="2"/>
+        <rect x="46" y="160" width="228" height="110" rx="6" fill="#f4f1ea"/>
+        <text x="160" y="214" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="700" font-size="40" fill="#111">Fix face</text>
+        <text x="160" y="250" text-anchor="middle" font-family="Inter Display" font-weight="600" font-size="17" letter-spacing="4" fill="#333">CREAM</text>
+        <rect x="24" y="126" width="18" height="180" rx="9" fill="#fff" opacity=".10"/>
+      </svg>
+
+      <!-- tube -->
+      <svg id="p3" class="prod" width="210" height="600" viewBox="0 0 210 600" style="left:750px;top:480px">
+        <path d="M18 20 L192 20 L180 470 Q105 488 30 470 Z" fill="#f4f1ea"/>
+        <rect x="14" y="10" width="182" height="24" rx="4" fill="#ddd8cc"/>
+        <path d="M30 470 Q105 488 180 470 L174 480 Q105 500 36 480 Z" fill="#cfc9bb"/>
+        <rect x="50" y="480" width="110" height="110" rx="12" fill="url(#rub)"/>
+        <rect x="50" y="480" width="110" height="16" fill="url(#goldM)"/>
+        <text x="105" y="230" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-weight="700" font-size="40" fill="#111">Fix face</text>
+        <line x1="55" y1="256" x2="155" y2="256" stroke="#b38a45" stroke-width="2"/>
+        <text x="105" y="292" text-anchor="middle" font-family="Inter Display" font-weight="600" font-size="16" letter-spacing="4" fill="#333">PEELING GEL</text>
+        <rect x="34" y="40" width="14" height="400" rx="7" fill="#fff" opacity=".35"/>
+      </svg>
+
+      <div id="tag1" class="tag" style="left:250px;top:560px">-50%</div>
+      <div id="tag2" class="tag" style="left:600px;top:700px;width:130px;height:130px;font-size:36px">-30%</div>
+      <div id="tag3" class="tag" style="left:860px;top:470px;width:140px;height:140px;font-size:40px">-40%</div>
+
+      <div id="s4shadow" class="abs" style="background:radial-gradient(ellipse 480px 40px at 540px 1090px,rgba(217,179,108,.25),rgba(0,0,0,0))"></div>
+
+      <div id="f1" class="el feat" style="top:1170px"><span class="star gold">✦</span><span>Xüsusi alış kampaniyaları</span></div>
+      <div id="f2" class="el feat" style="top:1270px"><span class="star gold">✦</span><span>Sərfəli paket təklifləri</span></div>
+      <div id="f3" class="el feat" style="top:1370px"><span class="star gold">✦</span><span>Keyfiyyətli məhsullar 💎</span></div>
+    </div>
+
+    <!-- SCENE 5 : URGENCY -->
+    <div id="s5" class="scene">
+      <div id="s5a" class="el smallcaps ink" style="top:470px;font-size:48px">⏳ YALNIZ</div>
+      <div id="s5b" class="el serif ink" style="top:560px;font-weight:900;font-size:300px;line-height:1">27</div>
+      <div id="s5c" class="el ink" style="top:880px;font-weight:900;font-size:130px;letter-spacing:.14em">NOYABR</div>
+      <div id="s5line" class="line" style="top:1060px;width:700px;margin-left:-350px;height:6px;background:linear-gradient(90deg,#a87b33,#d9b36c,#a87b33)"></div>
+      <div id="s5d" class="el ink" style="top:1130px;font-weight:900;font-size:104px">FÜRSƏTİ</div>
+      <div id="s5e" class="el" style="top:1250px;font-weight:900;font-size:104px;padding:0 30px;background:#0a0a0a;color:#f4f1ea">QAÇIRMAYIN!</div>
+    </div>
+
+    <!-- SCENE 6 : END CARD -->
+    <div id="s6" class="scene">
+      <div id="s6small" class="el smallcaps" style="top:470px;color:var(--gold1);font-size:36px">🖤 BLACK FRIDAY · 27.11 🖤</div>
+      <div id="s6logoWrap" class="el" style="top:560px;overflow:hidden;padding:0 40px">
+        <div id="s6logo" class="serif" style="font-style:italic;font-weight:700;font-size:210px;line-height:1.2;position:relative">Fix face
+          <div id="s6shine" style="position:absolute;top:0;left:0;width:180px;height:100%;
+            background:linear-gradient(100deg,rgba(255,255,255,0),rgba(246,231,193,.9),rgba(255,255,255,0));mix-blend-mode:overlay"></div>
+        </div>
+      </div>
+      <div id="s6line" class="line" style="top:840px;width:640px;margin-left:-320px"></div>
+      <div id="s6tag" class="el" style="top:880px;font-weight:300;font-size:52px;letter-spacing:.06em">Gözəlliyə dəyər qatırıq!</div>
+      <div id="s6off" class="el" style="top:1010px;display:flex;gap:18px">
+        <span class="pill" style="font-size:40px;padding:20px 36px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,.6)">50%-dək ENDİRİM</span>
+        <span class="pill" style="font-size:40px;padding:20px 36px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,.6)">Paket təkliflər</span>
+      </div>
+      <div id="s6cta" class="el pill pillGold" style="top:1180px;font-size:50px">📩 Sifariş üçün bizə yazın</div>
+      <div id="s6cta2" class="el" style="top:1330px;font-weight:500;font-size:34px;letter-spacing:.22em;color:rgba(255,255,255,.75)">DM · WHATSAPP · ZƏNG</div>
+    </div>
+  </div>
+
+  <div id="marquee"><div id="marqueeTrack"></div></div>
+  <div id="vignette"></div>
+  <div id="grain"></div>
+  <div id="flash"></div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const clamp = (v,a=0,b=1)=>Math.min(b,Math.max(a,v));
+const P = (t,a,b)=>clamp((t-a)/(b-a));
+const eOutExpo = x => x>=1?1:1-Math.pow(2,-10*x);
+const eOutCubic = x => 1-Math.pow(1-x,3);
+const eInCubic = x => x*x*x;
+const eInOut = x => x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const eOutBack = x => {const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2);};
+const lerp=(a,b,x)=>a+(b-a)*x;
+
+function T(el,{x=0,y=0,s=1,r=0,o=1,blur=0,sx=null,center=true}={}){
+  if(typeof el==='string') el=$(el);
+  const cx = center && el.classList.contains('el') ? 'translateX(-50%) ' : '';
+  el.style.transform = `${cx}translate(${x}px,${y}px) rotate(${r}deg) scale(${sx!==null?sx:s},${s})`;
+  el.style.opacity = o;
+  el.style.filter = blur>0?`blur(${blur}px)`:'none';
+}
+// scene window opacity
+function win(t,a,b,fi=.25,fo=.25){ if(t<a||t>b) return 0; return Math.min(P(t,a,a+fi), 1-P(t,b-fo,b)); }
+
+// seeded random
+function rng(seed){return ()=>{seed=(seed*16807)%2147483647;return (seed-1)/2147483646;}}
+const R = rng(42);
+const dust = Array.from({length:90},()=>({x:R()*1080,y:R()*1920,r:R()*2.6+.6,sp:R()*30+10,ph:R()*6.28,a:R()*.6+.2}));
+const bursts = [
+  {t:8.0, x:540,y:870, n:70},
+  {t:17.0,x:540,y:700, n:80},
+  {t:0.35,x:540,y:770, n:50},
+];
+bursts.forEach(b=>{const r=rng(Math.floor(b.t*1000)+7);b.p=Array.from({length:b.n},()=>({a:r()*6.283,v:r()*900+300,s:r()*5+2,g:r()>.3}))});
+
+// build month letters
+'NOYABR'.split('').forEach(ch=>{const s=document.createElement('span');s.textContent=ch;s.style.display='inline-block';$('s2month').appendChild(s)});
+const mq = 'BLACK FRIDAY ✦ 50%-DƏK ENDİRİM ✦ 27 NOYABR ✦ FIX FACE ✦ ';
+$('marqueeTrack').textContent = mq.repeat(8);
+
+// slam moments for shake (seconds)
+const slams=[0.2,0.55,3.3,6.4,8.0,14.5,15.5,16.0,17.0];
+
+function render(t){
+  const ctx=$('dust').getContext('2d');
+  ctx.clearRect(0,0,1080,1920);
+
+  // ---------- background ----------
+  $('bgGlow').style.transform=`translate(${Math.sin(t*.6)*120}px,${Math.cos(t*.45)*160}px) scale(${1+.08*Math.sin(t*1.3)})`;
+  $('bgGlow2').style.transform=`translate(${Math.cos(t*.5)*-140}px,${Math.sin(t*.7)*-120}px)`;
+  $('grain').style.transform=`translate(${(Math.floor(t*24)*37)%200-100}px,${(Math.floor(t*24)*53)%200-100}px)`;
+
+  // shake
+  let sh=0; slams.forEach(s=>{ if(t>=s&&t<s+.35){ sh=Math.max(sh,(1-(t-s)/.35)*22); }});
+  const sxo=Math.sin(t*93)*sh, syo=Math.cos(t*71)*sh;
+  $('shake').style.transform=`translate(${sxo}px,${syo}px)`;
+
+  // flash
+  let fl=0;
+  [[0,0.18,1],[3.0,3.18,.7],[6.4,6.62,.9],[10.0,10.15,.5],[14.0,14.12,.6],[17.0,17.25,.9]].forEach(([a,b,m])=>{ if(t>=a&&t<=b) fl=Math.max(fl,(1-P(t,a,b))*m); });
+  $('flash').style.opacity=fl;
+
+  // invert background for scene 5
+  const inv = win(t,14.45,16.95,.06,.1);
+  $('invert').style.opacity=inv;
+
+  // gold dust
+  dust.forEach(d=>{
+    const y=(d.y - t*d.sp*2 + 1920*4)%1920, x=d.x+Math.sin(t*.8+d.ph)*20;
+    ctx.globalAlpha=d.a*(1-inv)*(.6+.4*Math.sin(t*3+d.ph));
+    ctx.fillStyle='#e9cf96';ctx.beginPath();ctx.arc(x,y,d.r,0,6.283);ctx.fill();
+  });
+  // bursts
+  bursts.forEach(b=>{
+    const k=t-b.t; if(k<0||k>1.6) return;
+    b.p.forEach(p=>{
+      const dd=p.v*eOutCubic(clamp(k/1.6))*1.0;
+      const x=b.x+Math.cos(p.a)*dd, y=b.y+Math.sin(p.a)*dd + 200*k*k;
+      ctx.globalAlpha=(1-k/1.6);
+      ctx.fillStyle=p.g?'#e2c07c':'#ffffff';
+      ctx.beginPath();ctx.arc(x,y,p.s*(1-k/2),0,6.283);ctx.fill();
+    });
+  });
+  ctx.globalAlpha=1;
+
+  // marquee
+  const mqo = win(t,3.05,16.95,.3,.15);
+  $('marquee').style.opacity=mqo*(1-inv*.0);
+  $('marquee').style.filter= inv>.5?'invert(1)':'none';
+  $('marqueeTrack').style.transform=`translateX(${-((t*140)%1600)}px)`;
+
+  // ---------- SCENE 1 (0 - 3.2) ----------
+  const w1=win(t,0,3.25,.01,.3); $('s1').style.opacity=w1;
+  if(w1>0){
+    const a=eOutExpo(P(t,.2,.55));
+    T('s1black',{s:lerp(2.4,1,a),o:P(t,.2,.3),blur:(1-a)*12,y:Math.sin(t*2)*4});
+    const b=eOutExpo(P(t,.55,.9));
+    T('s1friday',{s:lerp(2.4,1,b),o:P(t,.55,.65),blur:(1-b)*12,y:Math.sin(t*2+1)*4});
+    $('s1line').style.transform=`scaleX(${eOutExpo(P(t,1.0,1.6))})`;
+    T('s1brand',{y:lerp(40,0,eOutCubic(P(t,1.2,1.8))),o:P(t,1.2,1.7),s:1+.03*Math.sin(t*3)});
+    T('s1heart',{s:eOutBack(P(t,1.5,1.9))*(1+.08*Math.sin(t*10)),o:P(t,1.5,1.6)});
+    // exit zoom
+    const ex=eInCubic(P(t,2.9,3.25));
+    $('s1').style.transform=`scale(${1+ex*.6})`;
+    $('s1').style.filter=ex>0?`blur(${ex*10}px)`:'none';
+  }
+
+  // ---------- SCENE 2 (3.0 - 6.4) ----------
+  const w2=win(t,3.0,6.45,.15,.15); $('s2').style.opacity=w2;
+  if(w2>0){
+    T('s2cal',{o:P(t,3.1,3.4),y:lerp(-30,0,eOutCubic(P(t,3.1,3.5)))});
+    const n=eOutExpo(P(t,3.15,3.6));
+    T('s2num',{s:lerp(.4,1,n)+.02*Math.sin(t*4),o:P(t,3.15,3.3),r:lerp(-10,0,n)});
+    [...$('s2month').children].forEach((c,i)=>{
+      const k=eOutBack(P(t,3.6+i*.07,3.95+i*.07));
+      c.style.transform=`translateY(${(1-k)*140}px)`; c.style.opacity=P(t,3.6+i*.07,3.75+i*.07);
+    });
+    const pp=eOutBack(P(t,4.4,4.8));
+    T('s2pill',{s:pp,o:P(t,4.4,4.5)});
+    const ex=eInCubic(P(t,6.1,6.45));
+    $('s2').style.transform=`translateY(${-ex*300}px)`;
+  }
+
+  // ---------- SCENE 3 (6.4 - 10.0) ----------
+  const w3=win(t,6.4,10.05,.05,.2); $('s3').style.opacity=w3;
+  if(w3>0){
+    T('s3top1',{o:P(t,6.5,6.8),y:lerp(-30,0,eOutCubic(P(t,6.5,6.9)))});
+    T('s3top2',{o:P(t,6.65,6.95),y:lerp(-30,0,eOutCubic(P(t,6.65,7.05)))});
+    const c=eOutCubic(P(t,6.6,8.0));
+    $('s3num').textContent=Math.round(c*50);
+    const pop = t>=8.0 ? 1+ .18*Math.max(0,1-(t-8.0)/.35) : 1;
+    T('s3big',{s:lerp(.7,1,eOutExpo(P(t,6.4,6.9)))*pop,o:P(t,6.4,6.5)});
+    $('s3arc').setAttribute('stroke-dashoffset', 2639*(1-c));
+    T('s3ring',{r:t*20,s:lerp(.6,1,eOutExpo(P(t,6.4,7.2))),o:P(t,6.4,6.8)*.9});
+    T('s3dek',{o:P(t,8.0,8.2),s:eOutBack(P(t,8.0,8.4)),r:-6});
+    const e=eOutExpo(P(t,8.3,8.7));
+    T('s3end',{o:P(t,8.3,8.45),s:lerp(1.6,1,e),blur:(1-e)*8, sx:lerp(1.6,1,e)});
+    const ex=eInCubic(P(t,9.75,10.05));
+    $('s3').style.transform=`scale(${1-ex*.3})`;
+  }
+
+  // ---------- SCENE 4 (10.0 - 14.2) ----------
+  const w4=win(t,10.0,14.15,.15,.2); $('s4').style.opacity=w4;
+  if(w4>0){
+    T('s4t1',{o:P(t,10.1,10.4),y:lerp(40,0,eOutCubic(P(t,10.1,10.5)))});
+    T('s4t2',{o:P(t,10.3,10.6),y:lerp(40,0,eOutCubic(P(t,10.3,10.7)))});
+    [['p1',10.15,0],['p2',10.3,1.3],['p3',10.45,2.4]].forEach(([id,st,ph])=>{
+      const k=eOutBack(P(t,st,st+.6));
+      T(id,{y:(1-k)*700+Math.sin(t*2.2+ph)*14,r:Math.sin(t*1.6+ph)*2.5,o:P(t,st,st+.15),center:false});
+    });
+    [['tag1',10.9],['tag2',11.05],['tag3',11.2]].forEach(([id,st],i)=>{
+      const k=eOutBack(P(t,st,st+.35));
+      T(id,{s:k*(1+.05*Math.sin(t*6+i)),r:-12+Math.sin(t*3+i)*6,o:P(t,st,st+.1),center:false});
+    });
+    $('s4shadow').style.opacity=P(t,10.4,11);
+    [['f1',11.8],['f2',12.3],['f3',12.8]].forEach(([id,st])=>{
+      const k=eOutExpo(P(t,st,st+.45));
+      T(id,{x:lerp(-700,0,k),o:P(t,st,st+.2),center:false});
+    });
+    const ex=eInCubic(P(t,13.9,14.15));
+    $('s4').style.transform=`translateX(${-ex*500}px)`;
+  }
+
+  // ---------- SCENE 5 (14.0 - 17.0) ----------
+  const w5=win(t,14.0,17.0,.08,.08); $('s5').style.opacity=w5;
+  if(w5>0){
+    T('s5a',{o:P(t,14.1,14.3),y:lerp(-40,0,eOutCubic(P(t,14.1,14.4)))});
+    const b=eOutExpo(P(t,14.5,14.85));
+    T('s5b',{s:lerp(2.6,1,b),o:P(t,14.5,14.58),r:lerp(8,0,b)});
+    T('s5c',{o:P(t,14.75,14.9),y:lerp(60,0,eOutCubic(P(t,14.75,15.1))),sx:1,s:1});
+    $('s5line').style.transform=`scaleX(${eOutExpo(P(t,15.1,15.6))})`;
+    const d=eOutExpo(P(t,15.5,15.8));
+    T('s5d',{s:lerp(1.8,1,d),o:P(t,15.5,15.56)});
+    const e=eOutBack(P(t,16.0,16.3));
+    const pulse = 1+.04*Math.max(0,Math.sin((t-16)*Math.PI*4));
+    T('s5e',{s:e*pulse,o:P(t,16.0,16.05),r:-3});
+  }
+
+  // ---------- SCENE 6 (17.0 - end) ----------
+  const w6=win(t,17.0,99,.12,.1)*(1-P(t,20.6,21)); $('s6').style.opacity=w6;
+  if(w6>0){
+    T('s6small',{o:P(t,17.3,17.6),y:lerp(-30,0,eOutCubic(P(t,17.3,17.7)))});
+    const l=eOutExpo(P(t,17.0,17.7));
+    T('s6logoWrap',{s:lerp(1.35,1,l),o:P(t,17.0,17.2),blur:(1-l)*10});
+    $('s6shine').style.transform=`translateX(${lerp(-250,1000,eInOut(P(t,18.0,19.0)))}px) skewX(-15deg)`;
+    $('s6line').style.transform=`scaleX(${eOutExpo(P(t,17.5,18.1))})`;
+    T('s6tag',{o:P(t,17.7,18.1),y:lerp(30,0,eOutCubic(P(t,17.7,18.2)))});
+    T('s6off',{o:P(t,18.1,18.4),y:lerp(30,0,eOutCubic(P(t,18.1,18.5)))});
+    const c=eOutBack(P(t,18.5,18.9));
+    T('s6cta',{s:c*(t>19?1+.035*Math.sin((t-19)*Math.PI*2*1):1),o:P(t,18.5,18.6)});
+    T('s6cta2',{o:P(t,18.9,19.3)});
+  }
+}
+window.render=render;
+render(0);
+</script>
+</body>
+</html>
