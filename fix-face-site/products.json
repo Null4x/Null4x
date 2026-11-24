@@ -1,0 +1,282 @@
+[
+  {
+    "id": "agasthi-body",
+    "name": "AGASTHI BODY",
+    "category": "Bədən konturu",
+    "volume": "100 cc",
+    "description": "Bədən konturlarına həcm verən bədən dolğusu.",
+    "image": "assets/agasthi-body.webp"
+  },
+  {
+    "id": "agasthi-deep",
+    "name": "AGASTHI DEEP",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": "Orta dərinlikli qırışlar və yumşaq toxuma həcmi üçün dermal dolğu.",
+    "image": "assets/agasthi-deep.webp"
+  },
+  {
+    "id": "agasthi-fine",
+    "name": "AGASTHI FINE",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": "Səthi qırışların korreksiyası üçün dermal dolğu.",
+    "image": "assets/agasthi-fine.webp"
+  },
+  {
+    "id": "agasthi-h",
+    "name": "AGASTHI H",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": "Hialuron turşusu əsaslı dermal dolğu.",
+    "image": "assets/agasthi-h.webp"
+  },
+  {
+    "id": "agasthi-s",
+    "name": "AGASTHI S",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": "Hialuron turşusu əsaslı dermal dolğu.",
+    "image": "assets/agasthi-s.webp"
+  },
+  {
+    "id": "agasthi-sub-q",
+    "name": "AGASTHI SUB-Q",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": "Dərin həcm və kontur korreksiyası üçün dermal dolğu.",
+    "image": "assets/agasthi-sub-q.webp"
+  },
+  {
+    "id": "audrey-h",
+    "name": "AUDREY H",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": "Premium hialuron turşusu əsaslı dermal dolğu.",
+    "image": "assets/audrey-h.webp"
+  },
+  {
+    "id": "audrey-m",
+    "name": "AUDREY M",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": "Premium hialuron turşusu əsaslı dermal dolğu.",
+    "image": "assets/audrey-m.webp"
+  },
+  {
+    "id": "audrey-m-2ml",
+    "name": "AUDREY M 2ML",
+    "category": "Dermal dolğular",
+    "volume": "2 ml",
+    "description": "Audrey M seriyasının 2 ml formatı.",
+    "image": "assets/audrey-m-2ml.webp"
+  },
+  {
+    "id": "cellix-pn",
+    "name": "CELLIX PN+",
+    "category": "Dəriyə qulluq",
+    "volume": "2.5 ml",
+    "description": "Polinukleotid, hialuronat, NMN/NAD+ və qlutation tərkibli skinbooster.",
+    "image": "assets/cellix-pn.webp"
+  },
+  {
+    "id": "hyaron",
+    "name": "HYARON",
+    "category": "Dəriyə qulluq",
+    "volume": "2.5 ml × 10",
+    "description": "Dongkook Pharmaceutical tərəfindən istehsal olunan Hyaron Prefilled Inj. Qablaşdırmada natrium hialuronat 25 mq/2,5 ml və hər biri 2,5 ml olan 10 əvvəlcədən doldurulmuş şpris göstərilir.",
+    "image": "assets/hyaron-new.png"
+  },
+  {
+    "id": "exo-nad",
+    "name": "EXO NAD+",
+    "category": "Dəriyə qulluq",
+    "volume": "100 mg + 6 ml",
+    "description": "Toz və aktivator formatında dəriyə qulluq kompleksi.",
+    "image": "assets/exo-nad.webp"
+  },
+  {
+    "id": "exoroot",
+    "name": "EXOROOT",
+    "category": "Saç və baş dərisi",
+    "volume": "100 mg + 5 ml",
+    "description": "Exosome Powder və Scalp Renew Solution ilə saç və baş dərisinə qulluq dəsti.",
+    "image": "assets/exoroot.webp"
+  },
+  {
+    "id": "fix-face-collagen",
+    "name": "FIX FACE COLLAGEN",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": "Hialuron turşusu və kollagen tərkibli meso seriyası.",
+    "image": "assets/fix-face-collagen.webp"
+  },
+  {
+    "id": "fix-face-cpdrn",
+    "name": "FIX FACE CPDRN",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": "PDRN, hialuron turşusu və peptidlər tərkibli meso seriyası.",
+    "image": "assets/fix-face-cpdrn.webp"
+  },
+  {
+    "id": "fix-face-grand",
+    "name": "FIX FACE GRAND",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": "Hialuron turşusu əsaslı həcm və kontur dolğusu.",
+    "image": "assets/fix-face-grand.webp"
+  },
+  {
+    "id": "fix-face-ha-18",
+    "name": "FIX FACE HA+18",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": "Hialuron turşusu və amin turşuları tərkibli meso seriyası.",
+    "image": "assets/fix-face-ha-18.webp"
+  },
+  {
+    "id": "fix-face-pdo",
+    "name": "FIX FACE PDO",
+    "category": "Liftinq və köməkçi",
+    "volume": "6 ədəd",
+    "description": "Polidioksanon əsaslı Beauty Lifting Threads seriyası.",
+    "image": "assets/fix-face-pdo.webp"
+  },
+  {
+    "id": "fix-face-skin-booster",
+    "name": "FIX FACE SKIN BOOSTER",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": "Hialuron turşusu əsaslı dəriyə qulluq seriyası.",
+    "image": "assets/fix-face-skin-booster.webp"
+  },
+  {
+    "id": "fix-face-ultra",
+    "name": "FIX FACE ULTRA",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": "Sodium Hyaluronate Gel əsaslı dermal dolğu.",
+    "image": "assets/fix-face-ultra.webp"
+  },
+  {
+    "id": "fix-face-ultra-plus",
+    "name": "FIX FACE ULTRA PLUS",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": "Sodium Hyaluronate Gel əsaslı dermal dolğu.",
+    "image": "assets/fix-face-ultra-plus.webp"
+  },
+  {
+    "id": "hyalmas",
+    "name": "HYALMASS 50",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/hyalmas.webp"
+  },
+  {
+    "id": "kiara-reju",
+    "name": "kiara reju",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/kiara-reju.webp"
+  },
+  {
+    "id": "lipo-360",
+    "name": "LIPO 360",
+    "category": "Bədən konturu",
+    "volume": "10 ml",
+    "description": "Lokal bədən konturu üçün LIPO 360 seriyası.",
+    "image": "assets/lipo-360.webp"
+  },
+  {
+    "id": "liporase",
+    "name": "liporase",
+    "category": "Liftinq və köməkçi",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/liporase.webp"
+  },
+  {
+    "id": "lxc",
+    "name": "LXC",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/lxc.webp"
+  },
+  {
+    "id": "nxc",
+    "name": "NXC",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/nxc.webp"
+  },
+  {
+    "id": "nxn",
+    "name": "NXN",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/nxn.webp"
+  },
+  {
+    "id": "plla",
+    "name": "PLLA",
+    "category": "Dəriyə qulluq",
+    "volume": "365 mg + 5 ml",
+    "description": "Poly-L-Lactic Acid: liofilizə olunmuş toz və maye komponentli dəst.",
+    "image": "assets/plla.webp"
+  },
+  {
+    "id": "qf-deep",
+    "name": "QUEEN FILL DEEP",
+    "category": "Dermal dolğular",
+    "volume": "1.1 ml",
+    "description": "Lidokainli, çarpaz bağlanmış hialuron turşusu əsaslı Queen Fill dermal dolğusu.",
+    "image": "assets/qf-deep.webp"
+  },
+  {
+    "id": "qf-fi-ne",
+    "name": "QUEEN FILL FINE",
+    "category": "Dermal dolğular",
+    "volume": "1.1 ml",
+    "description": "Lidokainli, çarpaz bağlanmış hialuron turşusu əsaslı Queen Fill dermal dolğusu.",
+    "image": "assets/qf-fi-ne.webp"
+  },
+  {
+    "id": "qf-sub-q",
+    "name": "QUEEN FILL SUB-Q",
+    "category": "Dermal dolğular",
+    "volume": "1.1 ml",
+    "description": "Lidokainli, çarpaz bağlanmış hialuron turşusu əsaslı Queen Fill dermal dolğusu.",
+    "image": "assets/qf-sub-q.webp"
+  },
+  {
+    "id": "riola-exotriple",
+    "name": "riola exotriple",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/riola-exotriple.webp"
+  },
+  {
+    "id": "selastin",
+    "name": "selastin",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
+    "image": "assets/selastin.webp"
+  },
+  {
+    "id": "yeellow-drop",
+    "name": "YELLOW DROP",
+    "category": "Bədən konturu",
+    "volume": "10 ml × 5",
+    "description": "Bromelain tərkibli üz və bədən ampula seriyası.",
+    "image": "assets/yeellow-drop.webp"
+  }
+]

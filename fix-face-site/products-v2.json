@@ -1,0 +1,1383 @@
+[
+  {
+    "id": "fix-face-ultra",
+    "name": "FIX FACE ULTRA",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": {
+      "az": "Üz nahiyəsində həcm itkisi, konturlar və dərin qırışların korreksiyası üçün hialuron turşusu əsaslı dermal dolğu. Seçim peşəkar qiymətləndirmə və məhsulun təlimatına əsaslanır.",
+      "en": "A hyaluronic acid-based dermal filler for facial volume loss, contouring and deep wrinkle correction. Product selection is based on professional assessment and the product instructions.",
+      "ru": "Дермальный филлер на основе гиалуроновой кислоты для коррекции потери объёма лица, контуров и глубоких морщин. Выбор основан на оценке специалиста и инструкции.",
+      "tr": "Yüzde hacim kaybı, kontur şekillendirme ve derin kırışıklıkların düzeltilmesi için hyalüronik asit bazlı dermal dolgu. Seçim uzman değerlendirmesine ve ürün talimatına dayanır."
+    },
+    "image": "assets/fix-face-ultra.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-ultra-0.webp",
+        "ratio": 2.435
+      }
+    ],
+    "background": "assets/v2/fix-face-ultra-background.webp",
+    "ingredients": "Sodium Hyaluronate · Phosphate-buffered Saline",
+    "concentration": "HA 20 mg/ml",
+    "format": "",
+    "sourcePage": 5,
+    "cat": "fillers",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 5",
+      "en": "Fix Face Catalog 21 · p. 5",
+      "ru": "Fix Face Каталог 21 · стр. 5",
+      "tr": "Fix Face Katalog 21 · s. 5"
+    },
+    "ingredientsI18n": {
+      "az": "Natrium hialuronat · Fosfat-buferli fizioloji məhlul",
+      "en": "Sodium Hyaluronate · Phosphate-buffered Saline",
+      "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
+      "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
+    }
+  },
+  {
+    "id": "fix-face-ultra-plus",
+    "name": "FIX FACE ULTRA PLUS",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": {
+      "az": "Üz nahiyəsində həcm itkisi, konturlar və dərin qırışların korreksiyası üçün hialuron turşusu əsaslı dermal dolğu. Seçim peşəkar qiymətləndirmə və məhsulun təlimatına əsaslanır.",
+      "en": "A hyaluronic acid-based dermal filler for facial volume loss, contouring and deep wrinkle correction. Product selection is based on professional assessment and the product instructions.",
+      "ru": "Дермальный филлер на основе гиалуроновой кислоты для коррекции потери объёма лица, контуров и глубоких морщин. Выбор основан на оценке специалиста и инструкции.",
+      "tr": "Yüzde hacim kaybı, kontur şekillendirme ve derin kırışıklıkların düzeltilmesi için hyalüronik asit bazlı dermal dolgu. Seçim uzman değerlendirmesine ve ürün talimatına dayanır."
+    },
+    "image": "assets/fix-face-ultra-plus.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-ultra-plus-0.webp",
+        "ratio": 2.242
+      }
+    ],
+    "background": "assets/v2/fix-face-ultra-plus-background.webp",
+    "ingredients": "Sodium Hyaluronate · Phosphate-buffered Saline",
+    "concentration": "HA 20 mg/ml",
+    "format": "",
+    "sourcePage": 5,
+    "cat": "fillers",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 5",
+      "en": "Fix Face Catalog 21 · p. 5",
+      "ru": "Fix Face Каталог 21 · стр. 5",
+      "tr": "Fix Face Katalog 21 · s. 5"
+    },
+    "ingredientsI18n": {
+      "az": "Natrium hialuronat · Fosfat-buferli fizioloji məhlul",
+      "en": "Sodium Hyaluronate · Phosphate-buffered Saline",
+      "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
+      "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
+    }
+  },
+  {
+    "id": "fix-face-grand",
+    "name": "FIX FACE GRAND",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": {
+      "az": "Üz nahiyəsində həcm itkisi, konturlar və dərin qırışların korreksiyası üçün hialuron turşusu əsaslı dermal dolğu. Seçim peşəkar qiymətləndirmə və məhsulun təlimatına əsaslanır.",
+      "en": "A hyaluronic acid-based dermal filler for facial volume loss, contouring and deep wrinkle correction. Product selection is based on professional assessment and the product instructions.",
+      "ru": "Дермальный филлер на основе гиалуроновой кислоты для коррекции потери объёма лица, контуров и глубоких морщин. Выбор основан на оценке специалиста и инструкции.",
+      "tr": "Yüzde hacim kaybı, kontur şekillendirme ve derin kırışıklıkların düzeltilmesi için hyalüronik asit bazlı dermal dolgu. Seçim uzman değerlendirmesine ve ürün talimatına dayanır."
+    },
+    "image": "assets/fix-face-grand.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-grand-0.webp",
+        "ratio": 2.242
+      }
+    ],
+    "background": "assets/v2/fix-face-grand-background.webp",
+    "ingredients": "Sodium Hyaluronate · Phosphate-buffered Saline",
+    "concentration": "HA 24 mg/ml",
+    "format": "",
+    "sourcePage": 5,
+    "cat": "fillers",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 5",
+      "en": "Fix Face Catalog 21 · p. 5",
+      "ru": "Fix Face Каталог 21 · стр. 5",
+      "tr": "Fix Face Katalog 21 · s. 5"
+    },
+    "ingredientsI18n": {
+      "az": "Natrium hialuronat · Fosfat-buferli fizioloji məhlul",
+      "en": "Sodium Hyaluronate · Phosphate-buffered Saline",
+      "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
+      "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
+    }
+  },
+  {
+    "id": "plla",
+    "name": "FIX FACE PLLA",
+    "category": "Dəriyə qulluq",
+    "volume": "365 mg + 5 ml",
+    "description": {
+      "az": "Poli-L-laktik turşu əsaslı peşəkar məhsul. Kataloqda kollagen istehsalının, dərinin möhkəmliyi və elastikliyinin dəstəklənməsi üçün təqdim olunur. Dəst toz və əlavə maye komponentdən ibarətdir.",
+      "en": "A professional poly-L-lactic acid-based product. The catalog describes support for collagen production, skin firmness and elasticity. The kit contains powder and an accompanying liquid component.",
+      "ru": "Профессиональный продукт на основе поли-L-молочной кислоты. В каталоге описан для поддержки выработки коллагена, упругости и эластичности кожи. Набор включает порошок и жидкий компонент.",
+      "tr": "Poli-L-laktik asit bazlı profesyonel ürün. Katalogda kolajen üretimini, cilt sıkılığını ve elastikiyetini desteklemek için sunulur. Set toz ve tamamlayıcı sıvı bileşenden oluşur."
+    },
+    "image": "assets/plla.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/plla-0.webp",
+        "ratio": 1.363
+      },
+      {
+        "src": "assets/v2/plla-1.webp",
+        "ratio": 0.757
+      },
+      {
+        "src": "assets/v2/plla-2.webp",
+        "ratio": 0.751
+      }
+    ],
+    "background": "assets/v2/plla-background.webp",
+    "ingredients": "PLLA · Mannitol · Peptides · Glutathione · Sodium Carboxymethylcellulose",
+    "concentration": "",
+    "format": "365 mg + 5 ml",
+    "sourcePage": 7,
+    "cat": "skin",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 7",
+      "en": "Fix Face Catalog 21 · p. 7",
+      "ru": "Fix Face Каталог 21 · стр. 7",
+      "tr": "Fix Face Katalog 21 · s. 7"
+    },
+    "ingredientsI18n": {
+      "az": "PLLA · Mannitol · Peptidlər · Qlutation · Sodium Carboxymethylcellulose",
+      "en": "PLLA · Mannitol · Peptides · Glutathione · Sodium Carboxymethylcellulose",
+      "ru": "PLLA · Mannitol · Пептиды · Глутатион · Sodium Carboxymethylcellulose",
+      "tr": "PLLA · Mannitol · Peptitler · Glutatyon · Sodium Carboxymethylcellulose"
+    }
+  },
+  {
+    "id": "fix-face-cpdrn",
+    "name": "FIX FACE CPDRN",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": {
+      "az": "PDRN, hialuron turşusu, peptidlər və qlutation tərkibli FIX FACE MESO seriyası. Məhsulun tam tərkibi və uyğunluğu barədə məlumatı komandamızdan əldə edə bilərsiniz.",
+      "en": "Part of the FIX FACE MESO series with PDRN, hyaluronic acid, peptides and glutathione. Contact our team for the full formulation and product suitability information.",
+      "ru": "Продукт серии FIX FACE MESO с PDRN, гиалуроновой кислотой, пептидами и глутатионом. Полный состав и информацию о продукте уточняйте у нашей команды.",
+      "tr": "PDRN, hyalüronik asit, peptitler ve glutatyon içeren FIX FACE MESO serisi. Tam içerik ve ürün uygunluğu hakkında ekibimizden bilgi alabilirsiniz."
+    },
+    "image": "assets/fix-face-cpdrn.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-cpdrn-0.webp",
+        "ratio": 2.246
+      },
+      {
+        "src": "assets/v2/fix-face-cpdrn-1.webp",
+        "ratio": 0.671
+      }
+    ],
+    "background": "assets/v2/fix-face-cpdrn-background.webp",
+    "ingredients": "PDRN · Hyaluronic Acid · Peptides · Glutathione",
+    "concentration": "",
+    "format": "5 ml × 5",
+    "sourcePage": 11,
+    "cat": "skin",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 11",
+      "en": "Fix Face Catalog 21 · p. 11",
+      "ru": "Fix Face Каталог 21 · стр. 11",
+      "tr": "Fix Face Katalog 21 · s. 11"
+    },
+    "ingredientsI18n": {
+      "az": "PDRN · Hialuron turşusu · Peptidlər · Qlutation",
+      "en": "PDRN · Hyaluronic Acid · Peptides · Glutathione",
+      "ru": "PDRN · Гиалуроновая кислота · Пептиды · Глутатион",
+      "tr": "PDRN · Hyalüronik Asit · Peptitler · Glutatyon"
+    }
+  },
+  {
+    "id": "fix-face-ha-18",
+    "name": "FIX FACE HA+18",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": {
+      "az": "Hialuron turşusu və amin turşuları tərkibli estetik qulluq məhsulu. Dərinin nəmləndirilməsi, nəmin saxlanması və daha hamar görünüşünün dəstəklənməsi üçün təqdim olunur.",
+      "en": "An aesthetic care product combining hyaluronic acid and amino acids, presented to support hydration, moisture retention and a smoother skin appearance.",
+      "ru": "Эстетический уход с гиалуроновой кислотой и аминокислотами для поддержки увлажнения, удержания влаги и более гладкого вида кожи.",
+      "tr": "Hyalüronik asit ve amino asitler içeren estetik bakım ürünü. Nemlendirmeyi, nemin korunmasını ve daha pürüzsüz cilt görünümünü desteklemek için sunulur."
+    },
+    "image": "assets/fix-face-ha-18.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-ha-18-0.webp",
+        "ratio": 2.226
+      },
+      {
+        "src": "assets/v2/fix-face-ha-18-1.webp",
+        "ratio": 0.861
+      }
+    ],
+    "background": "assets/v2/fix-face-ha-18-background.webp",
+    "ingredients": "Hyaluronic Acid · Proline · Alanine · Glycine · Serine · Amino Acids",
+    "concentration": "",
+    "format": "5 ml × 5",
+    "sourcePage": 15,
+    "cat": "skin",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 15",
+      "en": "Fix Face Catalog 21 · p. 15",
+      "ru": "Fix Face Каталог 21 · стр. 15",
+      "tr": "Fix Face Katalog 21 · s. 15"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu · Proline · Alanine · Glycine · Serine · Amino Acids",
+      "en": "Hyaluronic Acid · Proline · Alanine · Glycine · Serine · Amino Acids",
+      "ru": "Гиалуроновая кислота · Proline · Alanine · Glycine · Serine · Amino Acids",
+      "tr": "Hyalüronik Asit · Proline · Alanine · Glycine · Serine · Amino Acids"
+    }
+  },
+  {
+    "id": "fix-face-collagen",
+    "name": "FIX FACE COLLAGEN",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": {
+      "az": "Kollagen və hialuron turşusu tərkibli meso seriyası. Dərinin nəmliliyini, elastikliyini, hamarlığını və ümumi dəri keyfiyyətini dəstəkləmək üçün təqdim olunur.",
+      "en": "A meso series containing collagen and hyaluronic acid, presented to support skin hydration, elasticity, smoothness and overall skin quality.",
+      "ru": "Мезосерия с коллагеном и гиалуроновой кислотой для поддержки увлажнённости, эластичности, гладкости и общего качества кожи.",
+      "tr": "Kolajen ve hyalüronik asit içeren meso serisi. Cildin nemini, elastikiyetini, pürüzsüzlüğünü ve genel kalitesini desteklemek için sunulur."
+    },
+    "image": "assets/fix-face-collagen.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-collagen-0.webp",
+        "ratio": 2.242
+      },
+      {
+        "src": "assets/v2/fix-face-collagen-1.webp",
+        "ratio": 0.973
+      }
+    ],
+    "background": "assets/v2/fix-face-collagen-background.webp",
+    "ingredients": "Hyaluronic Acid · Collagen · Phosphate-buffered Saline",
+    "concentration": "HA 0.6% · Collagen 0.2%",
+    "format": "5 ml × 5",
+    "sourcePage": 17,
+    "cat": "skin",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 17",
+      "en": "Fix Face Catalog 21 · p. 17",
+      "ru": "Fix Face Каталог 21 · стр. 17",
+      "tr": "Fix Face Katalog 21 · s. 17"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu · Kollagen · Fosfat-buferli fizioloji məhlul",
+      "en": "Hyaluronic Acid · Collagen · Phosphate-buffered Saline",
+      "ru": "Гиалуроновая кислота · Коллаген · Физиологический раствор с фосфатным буфером",
+      "tr": "Hyalüronik Asit · Kolajen · Fosfat Tamponlu Serum Fizyolojik"
+    }
+  },
+  {
+    "id": "fix-face-skin-booster",
+    "name": "FIX FACE SKIN BOOSTER",
+    "category": "Dəriyə qulluq",
+    "volume": "5 ml × 5",
+    "description": {
+      "az": "Natrium hialuronat əsaslı dəriyə qulluq məhsulu. Dərinin nəmləndirilməsini, daha hamar və parlaq görünüşünü dəstəkləmək üçün təqdim olunur. 5 ml flakon formatı.",
+      "en": "A sodium hyaluronate-based skin care product, presented to support hydration and a smoother, more radiant skin appearance. Supplied in a 5 ml vial.",
+      "ru": "Средство для ухода за кожей на основе гиалуроната натрия. Предназначено для поддержки увлажнения, гладкости и сияния кожи. Флакон 5 мл.",
+      "tr": "Sodyum hyalüronat bazlı cilt bakım ürünü. Nemlendirmeyi ve daha pürüzsüz, aydınlık cilt görünümünü desteklemek için sunulur. 5 ml flakon formatı."
+    },
+    "image": "assets/fix-face-skin-booster.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-skin-booster-0.webp",
+        "ratio": 2.252
+      },
+      {
+        "src": "assets/v2/fix-face-skin-booster-1.webp",
+        "ratio": 0.861
+      }
+    ],
+    "background": "assets/v2/fix-face-skin-booster-background.webp",
+    "ingredients": "Hyaluronic Acid · Phosphate-buffered Saline",
+    "concentration": "HA 0.8%",
+    "format": "5 ml × 5",
+    "sourcePage": 13,
+    "cat": "skin",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 13",
+      "en": "Fix Face Catalog 21 · p. 13",
+      "ru": "Fix Face Каталог 21 · стр. 13",
+      "tr": "Fix Face Katalog 21 · s. 13"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu · Fosfat-buferli fizioloji məhlul",
+      "en": "Hyaluronic Acid · Phosphate-buffered Saline",
+      "ru": "Гиалуроновая кислота · Физиологический раствор с фосфатным буфером",
+      "tr": "Hyalüronik Asit · Fosfat Tamponlu Serum Fizyolojik"
+    }
+  },
+  {
+    "id": "fix-face-pdo",
+    "name": "FIX FACE PDO",
+    "category": "Liftinq və köməkçi",
+    "volume": "6 pcs · Cog 18 × 100",
+    "description": {
+      "az": "Üz konturlarının formalaşdırılması və yumşaq toxumaların dəstəklənməsi üçün sorulan liftinq sapları. Cog tipli dişcikli quruluşa malikdir. Bir qablaşdırmada 6 ədəd təqdim olunur.",
+      "en": "Absorbable lifting threads for facial contouring and soft tissue support. Features a Cog barbed structure. Supplied as 6 pieces per pack.",
+      "ru": "Рассасывающиеся лифтинговые нити для моделирования контуров лица и поддержки мягких тканей. Зубчатая структура Cog. В упаковке 6 штук.",
+      "tr": "Yüz konturlarının şekillendirilmesi ve yumuşak dokunun desteklenmesi için emilebilir lifting ipleri. Cog tipi tırtıklı yapıya sahiptir. Bir pakette 6 adet sunulur."
+    },
+    "image": "assets/fix-face-pdo.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/fix-face-pdo-0.webp",
+        "ratio": 0.666
+      }
+    ],
+    "background": "assets/v2/fix-face-pdo-background.webp",
+    "ingredients": "Polydioxanone (PDO)",
+    "concentration": "",
+    "format": "6 pcs · Cog 18 × 100",
+    "sourcePage": 9,
+    "cat": "support",
+    "brand": "FIX FACE",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 9",
+      "en": "Fix Face Catalog 21 · p. 9",
+      "ru": "Fix Face Каталог 21 · стр. 9",
+      "tr": "Fix Face Katalog 21 · s. 9"
+    },
+    "ingredientsI18n": {
+      "az": "Polydioxanone (PDO)",
+      "en": "Polydioxanone (PDO)",
+      "ru": "Polydioxanone (PDO)",
+      "tr": "Polydioxanone (PDO)"
+    }
+  },
+  {
+    "id": "agasthi-h",
+    "name": "AGASTHI H",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": {
+      "az": "Qeyri-heyvan mənşəli stabilləşdirilmiş hialuron turşusu və lidokain tərkibli PREMIUM seriyası. H və S variantları ayrı məhsullar kimi 10 ml formatında təqdim olunur.",
+      "en": "The PREMIUM series contains stabilised non-animal hyaluronic acid and lidocaine. H and S are separate variants, each presented in a 10 ml format.",
+      "ru": "Серия PREMIUM содержит стабилизированную гиалуроновую кислоту неживотного происхождения и лидокаин. H и S — отдельные варианты по 10 мл.",
+      "tr": "PREMIUM serisi hayvansal kaynaklı olmayan stabilize hyalüronik asit ve lidokain içerir. H ve S ayrı seçenekler olarak 10 ml formatında sunulur."
+    },
+    "image": "assets/agasthi-h.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/agasthi-h-0.webp",
+        "ratio": 1.923
+      }
+    ],
+    "background": "assets/v2/agasthi-h-background.webp",
+    "ingredients": "Stabilised Hyaluronic Acid · Lidocaine HCl",
+    "concentration": "HA 20 mg/ml",
+    "format": "10 ml",
+    "sourcePage": 22,
+    "cat": "fillers",
+    "brand": "AGASTHI",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 22",
+      "en": "Fix Face Catalog 21 · p. 22",
+      "ru": "Fix Face Каталог 21 · стр. 22",
+      "tr": "Fix Face Katalog 21 · s. 22"
+    },
+    "ingredientsI18n": {
+      "az": "Stabilləşdirilmiş hialuron turşusu · Lidokain HCl",
+      "en": "Stabilised Hyaluronic Acid · Lidocaine HCl",
+      "ru": "Стабилизированная гиалуроновая кислота · Лидокаин HCl",
+      "tr": "Stabilize Hyalüronik Asit · Lidokain HCl"
+    }
+  },
+  {
+    "id": "agasthi-body",
+    "name": "AGASTHI BODY",
+    "category": "Bədən konturu",
+    "volume": "100 cc",
+    "description": {
+      "az": "Bədən konturlarının formalaşdırılması və toxumalara həcm verilməsi üçün stabilləşdirilmiş hialuron turşusu əsaslı bədən dolğusu. 100 cc formatında təqdim olunur.",
+      "en": "A body filler based on stabilised hyaluronic acid for body contouring and adding tissue volume. Presented in a 100 cc format.",
+      "ru": "Филлер для тела на основе стабилизированной гиалуроновой кислоты для моделирования контуров и восполнения объёма тканей. Формат 100 cc.",
+      "tr": "Vücut konturlarının şekillendirilmesi ve dokulara hacim kazandırılması için stabilize hyalüronik asit bazlı vücut dolgusu. 100 cc formatında sunulur."
+    },
+    "image": "assets/agasthi-body.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/agasthi-body-0.webp",
+        "ratio": 0.516
+      }
+    ],
+    "background": "assets/v2/agasthi-body-background.webp",
+    "ingredients": "Stabilised Hyaluronic Acid",
+    "concentration": "24 mg/ml",
+    "format": "100 cc",
+    "sourcePage": 24,
+    "cat": "body",
+    "brand": "AGASTHI",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 24",
+      "en": "Fix Face Catalog 21 · p. 24",
+      "ru": "Fix Face Каталог 21 · стр. 24",
+      "tr": "Fix Face Katalog 21 · s. 24"
+    },
+    "ingredientsI18n": {
+      "az": "Stabilləşdirilmiş hialuron turşusu",
+      "en": "Stabilised Hyaluronic Acid",
+      "ru": "Стабилизированная гиалуроновая кислота",
+      "tr": "Stabilize Hyalüronik Asit"
+    }
+  },
+  {
+    "id": "agasthi-fine",
+    "name": "AGASTHI FINE",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": {
+      "az": "Səthi qırışların korreksiyası və dərinin görünüşünün yaxşılaşdırılması üçün AGASTHI FINE. Lidokainli, çarpaz bağlanmış hialuron turşusu əsaslı seriyanın 1 ml variantıdır.",
+      "en": "AGASTHI FINE is intended for superficial wrinkle correction and improvement of skin appearance. A 1 ml variant of the cross-linked hyaluronic acid series with lidocaine.",
+      "ru": "AGASTHI FINE предназначен для коррекции поверхностных морщин и улучшения внешнего вида кожи. Вариант серии на основе сшитой гиалуроновой кислоты с лидокаином, 1 мл.",
+      "tr": "AGASTHI FINE yüzeysel kırışıklıkların düzeltilmesi ve cilt görünümünün iyileştirilmesi içindir. Lidokain içeren çapraz bağlı hyalüronik asit serisinin 1 ml seçeneğidir."
+    },
+    "image": "assets/agasthi-fine.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/agasthi-fine-0.webp",
+        "ratio": 1.931
+      }
+    ],
+    "background": "assets/v2/agasthi-fine-background.webp",
+    "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+    "concentration": "HA 20 mg/ml",
+    "format": "1 ml",
+    "sourcePage": 20,
+    "cat": "fillers",
+    "brand": "AGASTHI",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 20",
+      "en": "Fix Face Catalog 21 · p. 20",
+      "ru": "Fix Face Каталог 21 · стр. 20",
+      "tr": "Fix Face Katalog 21 · s. 20"
+    },
+    "ingredientsI18n": {
+      "az": "Çarpaz bağlanmış natrium hialuronat · Lidokain HCl · Phosphate Buffer",
+      "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+      "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
+      "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
+    }
+  },
+  {
+    "id": "agasthi-deep",
+    "name": "AGASTHI DEEP",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": {
+      "az": "Orta dərinlikli qırışların korreksiyası və yumşaq toxuma həcminin bərpası üçün AGASTHI DEEP. Steril, birdəfəlik 1 ml şprisdə təqdim olunur.",
+      "en": "AGASTHI DEEP is intended for moderate wrinkle correction and restoration of soft tissue volume. Supplied in a sterile, single-use 1 ml syringe.",
+      "ru": "AGASTHI DEEP предназначен для коррекции морщин средней глубины и восстановления объёма мягких тканей. Стерильный одноразовый шприц 1 мл.",
+      "tr": "AGASTHI DEEP orta derinlikteki kırışıklıkların düzeltilmesi ve yumuşak doku hacminin geri kazandırılması içindir. Steril, tek kullanımlık 1 ml enjektörde sunulur."
+    },
+    "image": "assets/agasthi-deep.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/agasthi-deep-0.webp",
+        "ratio": 1.931
+      }
+    ],
+    "background": "assets/v2/agasthi-deep-background.webp",
+    "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+    "concentration": "HA 20 mg/ml",
+    "format": "1 ml",
+    "sourcePage": 20,
+    "cat": "fillers",
+    "brand": "AGASTHI",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 20",
+      "en": "Fix Face Catalog 21 · p. 20",
+      "ru": "Fix Face Каталог 21 · стр. 20",
+      "tr": "Fix Face Katalog 21 · s. 20"
+    },
+    "ingredientsI18n": {
+      "az": "Çarpaz bağlanmış natrium hialuronat · Lidokain HCl · Phosphate Buffer",
+      "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+      "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
+      "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
+    }
+  },
+  {
+    "id": "agasthi-sub-q",
+    "name": "AGASTHI SUB-Q",
+    "category": "Dermal dolğular",
+    "volume": "1 ml",
+    "description": {
+      "az": "Dərin toxuma həcminin bərpası və üz konturlarının formalaşdırılması üçün AGASTHI SUB-Q. Çarpaz bağlanmış hialuron turşusu və lidokain tərkiblidir.",
+      "en": "AGASTHI SUB-Q is intended for restoration of deeper tissue volume and facial contouring. Formulated with cross-linked hyaluronic acid and lidocaine.",
+      "ru": "AGASTHI SUB-Q предназначен для восстановления объёма глубоких тканей и моделирования контуров лица. Содержит сшитую гиалуроновую кислоту и лидокаин.",
+      "tr": "AGASTHI SUB-Q derin doku hacminin geri kazandırılması ve yüz konturlarının şekillendirilmesi içindir. Çapraz bağlı hyalüronik asit ve lidokain içerir."
+    },
+    "image": "assets/agasthi-sub-q.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/agasthi-sub-q-0.webp",
+        "ratio": 2.435
+      }
+    ],
+    "background": "assets/v2/agasthi-sub-q-background.webp",
+    "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+    "concentration": "HA 20 mg/ml",
+    "format": "1 ml",
+    "sourcePage": 20,
+    "cat": "fillers",
+    "brand": "AGASTHI",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 20",
+      "en": "Fix Face Catalog 21 · p. 20",
+      "ru": "Fix Face Каталог 21 · стр. 20",
+      "tr": "Fix Face Katalog 21 · s. 20"
+    },
+    "ingredientsI18n": {
+      "az": "Çarpaz bağlanmış natrium hialuronat · Lidokain HCl · Phosphate Buffer",
+      "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+      "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
+      "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
+    }
+  },
+  {
+    "id": "agasthi-s",
+    "name": "AGASTHI S",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": {
+      "az": "Qeyri-heyvan mənşəli stabilləşdirilmiş hialuron turşusu və lidokain tərkibli PREMIUM seriyası. H və S variantları ayrı məhsullar kimi 10 ml formatında təqdim olunur.",
+      "en": "The PREMIUM series contains stabilised non-animal hyaluronic acid and lidocaine. H and S are separate variants, each presented in a 10 ml format.",
+      "ru": "Серия PREMIUM содержит стабилизированную гиалуроновую кислоту неживотного происхождения и лидокаин. H и S — отдельные варианты по 10 мл.",
+      "tr": "PREMIUM serisi hayvansal kaynaklı olmayan stabilize hyalüronik asit ve lidokain içerir. H ve S ayrı seçenekler olarak 10 ml formatında sunulur."
+    },
+    "image": "assets/agasthi-s.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/agasthi-s-0.webp",
+        "ratio": 1.926
+      }
+    ],
+    "background": "assets/v2/agasthi-s-background.webp",
+    "ingredients": "Stabilised Hyaluronic Acid · Lidocaine HCl",
+    "concentration": "HA 20 mg/ml",
+    "format": "10 ml",
+    "sourcePage": 22,
+    "cat": "fillers",
+    "brand": "AGASTHI",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 22",
+      "en": "Fix Face Catalog 21 · p. 22",
+      "ru": "Fix Face Каталог 21 · стр. 22",
+      "tr": "Fix Face Katalog 21 · s. 22"
+    },
+    "ingredientsI18n": {
+      "az": "Stabilləşdirilmiş hialuron turşusu · Lidokain HCl",
+      "en": "Stabilised Hyaluronic Acid · Lidocaine HCl",
+      "ru": "Стабилизированная гиалуроновая кислота · Лидокаин HCl",
+      "tr": "Stabilize Hyalüronik Asit · Lidokain HCl"
+    }
+  },
+  {
+    "id": "audrey-h",
+    "name": "AUDREY H",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": {
+      "az": "Premium hialuron turşusu əsaslı AUDREY seriyası. H variantı 10 ml, M variantı isə 10 ml və 2 ml formatlarında təqdim olunur. Konkret tətbiq nahiyəsi istehsalçının təlimatına və mütəxəssis qiymətləndirməsinə əsasən seçilir.",
+      "en": "The premium hyaluronic acid-based AUDREY series. H is available in 10 ml; M is available in 10 ml and 2 ml formats. Specific treatment areas are selected according to the manufacturer’s instructions and professional assessment.",
+      "ru": "Премиальная серия AUDREY на основе гиалуроновой кислоты. H представлен в формате 10 мл, M — 10 мл и 2 мл. Область применения определяется по инструкции производителя и оценке специалиста.",
+      "tr": "Premium hyalüronik asit bazlı AUDREY serisi. H, 10 ml; M ise 10 ml ve 2 ml formatlarında sunulur. Uygulama bölgesi üretici talimatına ve uzman değerlendirmesine göre belirlenir."
+    },
+    "image": "assets/audrey-h.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/audrey-h-0.webp",
+        "ratio": 3.409
+      }
+    ],
+    "background": "assets/v2/audrey-h-background.webp",
+    "ingredients": "Hyaluronic Acid",
+    "concentration": "",
+    "format": "",
+    "sourcePage": 27,
+    "cat": "fillers",
+    "brand": "AUDREY",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 27",
+      "en": "Fix Face Catalog 21 · p. 27",
+      "ru": "Fix Face Каталог 21 · стр. 27",
+      "tr": "Fix Face Katalog 21 · s. 27"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu",
+      "en": "Hyaluronic Acid",
+      "ru": "Гиалуроновая кислота",
+      "tr": "Hyalüronik Asit"
+    }
+  },
+  {
+    "id": "audrey-m",
+    "name": "AUDREY M 10ML",
+    "category": "Dermal dolğular",
+    "volume": "10 ml",
+    "description": {
+      "az": "Premium hialuron turşusu əsaslı AUDREY seriyası. H variantı 10 ml, M variantı isə 10 ml və 2 ml formatlarında təqdim olunur. Konkret tətbiq nahiyəsi istehsalçının təlimatına və mütəxəssis qiymətləndirməsinə əsasən seçilir.",
+      "en": "The premium hyaluronic acid-based AUDREY series. H is available in 10 ml; M is available in 10 ml and 2 ml formats. Specific treatment areas are selected according to the manufacturer’s instructions and professional assessment.",
+      "ru": "Премиальная серия AUDREY на основе гиалуроновой кислоты. H представлен в формате 10 мл, M — 10 мл и 2 мл. Область применения определяется по инструкции производителя и оценке специалиста.",
+      "tr": "Premium hyalüronik asit bazlı AUDREY serisi. H, 10 ml; M ise 10 ml ve 2 ml formatlarında sunulur. Uygulama bölgesi üretici talimatına ve uzman değerlendirmesine göre belirlenir."
+    },
+    "image": "assets/audrey-m.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/audrey-m-0.webp",
+        "ratio": 3.191
+      }
+    ],
+    "background": "assets/v2/audrey-m-background.webp",
+    "ingredients": "Hyaluronic Acid",
+    "concentration": "",
+    "format": "",
+    "sourcePage": 27,
+    "cat": "fillers",
+    "brand": "AUDREY",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 27",
+      "en": "Fix Face Catalog 21 · p. 27",
+      "ru": "Fix Face Каталог 21 · стр. 27",
+      "tr": "Fix Face Katalog 21 · s. 27"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu",
+      "en": "Hyaluronic Acid",
+      "ru": "Гиалуроновая кислота",
+      "tr": "Hyalüronik Asit"
+    }
+  },
+  {
+    "id": "audrey-m-2ml",
+    "name": "AUDREY M 2ML",
+    "category": "Dermal dolğular",
+    "volume": "2 ml",
+    "description": {
+      "az": "Premium hialuron turşusu əsaslı AUDREY seriyası. H variantı 10 ml, M variantı isə 10 ml və 2 ml formatlarında təqdim olunur. Konkret tətbiq nahiyəsi istehsalçının təlimatına və mütəxəssis qiymətləndirməsinə əsasən seçilir.",
+      "en": "The premium hyaluronic acid-based AUDREY series. H is available in 10 ml; M is available in 10 ml and 2 ml formats. Specific treatment areas are selected according to the manufacturer’s instructions and professional assessment.",
+      "ru": "Премиальная серия AUDREY на основе гиалуроновой кислоты. H представлен в формате 10 мл, M — 10 мл и 2 мл. Область применения определяется по инструкции производителя и оценке специалиста.",
+      "tr": "Premium hyalüronik asit bazlı AUDREY serisi. H, 10 ml; M ise 10 ml ve 2 ml formatlarında sunulur. Uygulama bölgesi üretici talimatına ve uzman değerlendirmesine göre belirlenir."
+    },
+    "image": "assets/audrey-m-2ml.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/audrey-m-2ml-0.webp",
+        "ratio": 3.08
+      }
+    ],
+    "background": "assets/v2/audrey-m-2ml-background.webp",
+    "ingredients": "Hyaluronic Acid",
+    "concentration": "",
+    "format": "",
+    "sourcePage": 27,
+    "cat": "fillers",
+    "brand": "AUDREY",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 27",
+      "en": "Fix Face Catalog 21 · p. 27",
+      "ru": "Fix Face Каталог 21 · стр. 27",
+      "tr": "Fix Face Katalog 21 · s. 27"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu",
+      "en": "Hyaluronic Acid",
+      "ru": "Гиалуроновая кислота",
+      "tr": "Hyalüronik Asit"
+    }
+  },
+  {
+    "id": "qf-fi-ne",
+    "name": "QUEEN FILL FINE",
+    "category": "Dermal dolğular",
+    "volume": "1.1 ml",
+    "description": {
+      "az": "Yumşaq toxuma həcminin korreksiyası üçün çarpaz bağlanmış hialuron turşusu və lidokain tərkibli QUEEN FILL seriyası. Hər şprisin həcmi 1.1 ml-dir. Variant və tətbiq nahiyəsi istehsalçının təlimatına əsasən seçilir.",
+      "en": "The QUEEN FILL series combines cross-linked hyaluronic acid and lidocaine for soft tissue volume correction. Each syringe contains 1.1 ml. The variant and treatment area are selected according to the manufacturer’s instructions.",
+      "ru": "Серия QUEEN FILL на основе сшитой гиалуроновой кислоты и лидокаина для коррекции объёма мягких тканей. Каждый шприц содержит 1,1 мл. Вариант и область применения выбираются по инструкции производителя.",
+      "tr": "QUEEN FILL serisi yumuşak doku hacminin düzeltilmesi için çapraz bağlı hyalüronik asit ve lidokain içerir. Her enjektör 1.1 ml’dir. Seçenek ve uygulama bölgesi üretici talimatına göre belirlenir."
+    },
+    "image": "assets/qf-fi-ne.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/qf-fi-ne-0.webp",
+        "ratio": 0.435
+      }
+    ],
+    "background": "assets/v2/qf-fi-ne-background.webp",
+    "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+    "concentration": "HA 24 mg/ml",
+    "format": "1.1 ml",
+    "sourcePage": 30,
+    "cat": "fillers",
+    "brand": "QUEEN FILL",
+    "needle": "30G × 1/2”",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 30",
+      "en": "Fix Face Catalog 21 · p. 30",
+      "ru": "Fix Face Каталог 21 · стр. 30",
+      "tr": "Fix Face Katalog 21 · s. 30"
+    },
+    "ingredientsI18n": {
+      "az": "Çarpaz bağlanmış natrium hialuronat · Lidokain HCl · Phosphate Buffer",
+      "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+      "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
+      "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
+    }
+  },
+  {
+    "id": "qf-deep",
+    "name": "QUEEN FILL DEEP",
+    "category": "Dermal dolğular",
+    "volume": "1.1 ml",
+    "description": {
+      "az": "Yumşaq toxuma həcminin korreksiyası üçün çarpaz bağlanmış hialuron turşusu və lidokain tərkibli QUEEN FILL seriyası. Hər şprisin həcmi 1.1 ml-dir. Variant və tətbiq nahiyəsi istehsalçının təlimatına əsasən seçilir.",
+      "en": "The QUEEN FILL series combines cross-linked hyaluronic acid and lidocaine for soft tissue volume correction. Each syringe contains 1.1 ml. The variant and treatment area are selected according to the manufacturer’s instructions.",
+      "ru": "Серия QUEEN FILL на основе сшитой гиалуроновой кислоты и лидокаина для коррекции объёма мягких тканей. Каждый шприц содержит 1,1 мл. Вариант и область применения выбираются по инструкции производителя.",
+      "tr": "QUEEN FILL serisi yumuşak doku hacminin düzeltilmesi için çapraz bağlı hyalüronik asit ve lidokain içerir. Her enjektör 1.1 ml’dir. Seçenek ve uygulama bölgesi üretici talimatına göre belirlenir."
+    },
+    "image": "assets/qf-deep.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/qf-deep-0.webp",
+        "ratio": 0.435
+      }
+    ],
+    "background": "assets/v2/qf-deep-background.webp",
+    "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+    "concentration": "HA 24 mg/ml",
+    "format": "1.1 ml",
+    "sourcePage": 30,
+    "cat": "fillers",
+    "brand": "QUEEN FILL",
+    "needle": "27G × 1/2”",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 30",
+      "en": "Fix Face Catalog 21 · p. 30",
+      "ru": "Fix Face Каталог 21 · стр. 30",
+      "tr": "Fix Face Katalog 21 · s. 30"
+    },
+    "ingredientsI18n": {
+      "az": "Çarpaz bağlanmış natrium hialuronat · Lidokain HCl · Phosphate Buffer",
+      "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+      "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
+      "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
+    }
+  },
+  {
+    "id": "qf-sub-q",
+    "name": "QUEEN FILL SUB-Q",
+    "category": "Dermal dolğular",
+    "volume": "1.1 ml",
+    "description": {
+      "az": "Yumşaq toxuma həcminin korreksiyası üçün çarpaz bağlanmış hialuron turşusu və lidokain tərkibli QUEEN FILL seriyası. Hər şprisin həcmi 1.1 ml-dir. Variant və tətbiq nahiyəsi istehsalçının təlimatına əsasən seçilir.",
+      "en": "The QUEEN FILL series combines cross-linked hyaluronic acid and lidocaine for soft tissue volume correction. Each syringe contains 1.1 ml. The variant and treatment area are selected according to the manufacturer’s instructions.",
+      "ru": "Серия QUEEN FILL на основе сшитой гиалуроновой кислоты и лидокаина для коррекции объёма мягких тканей. Каждый шприц содержит 1,1 мл. Вариант и область применения выбираются по инструкции производителя.",
+      "tr": "QUEEN FILL serisi yumuşak doku hacminin düzeltilmesi için çapraz bağlı hyalüronik asit ve lidokain içerir. Her enjektör 1.1 ml’dir. Seçenek ve uygulama bölgesi üretici talimatına göre belirlenir."
+    },
+    "image": "assets/qf-sub-q.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/qf-sub-q-0.webp",
+        "ratio": 0.433
+      }
+    ],
+    "background": "assets/v2/qf-sub-q-background.webp",
+    "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+    "concentration": "HA 24 mg/ml",
+    "format": "1.1 ml",
+    "sourcePage": 30,
+    "cat": "fillers",
+    "brand": "QUEEN FILL",
+    "needle": "25G × 1/2”",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 30",
+      "en": "Fix Face Catalog 21 · p. 30",
+      "ru": "Fix Face Каталог 21 · стр. 30",
+      "tr": "Fix Face Katalog 21 · s. 30"
+    },
+    "ingredientsI18n": {
+      "az": "Çarpaz bağlanmış natrium hialuronat · Lidokain HCl · Phosphate Buffer",
+      "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
+      "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
+      "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
+    }
+  },
+  {
+    "id": "lipo-360",
+    "name": "LIPO 360",
+    "category": "Bədən konturu",
+    "volume": "10 ml",
+    "description": {
+      "az": "Lokal dərialtı piy yığıntılarının korreksiyası üçün peşəkar lipolitik məhlul. PPC, natrium deoksixolat, karnitin və peptid kompleksləri tərkiblidir. Hər flakonun həcmi 10 ml-dir.",
+      "en": "A professional lipolytic solution for correction of localised subcutaneous fat deposits. Formulated with PPC, sodium deoxycholate, carnitine and peptide complexes. Each vial contains 10 ml.",
+      "ru": "Профессиональный липолитический раствор для коррекции локальных подкожных жировых отложений. Содержит PPC, дезоксихолат натрия, карнитин и пептидные комплексы. Флакон 10 мл.",
+      "tr": "Lokal deri altı yağ birikimlerinin düzeltilmesi için profesyonel lipolitik solüsyon. PPC, sodyum deoksikolat, karnitin ve peptit kompleksleri içerir. Her flakon 10 ml’dir."
+    },
+    "image": "assets/lipo-360.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/lipo-360-0.webp",
+        "ratio": 0.898
+      },
+      {
+        "src": "assets/v2/lipo-360-1.webp",
+        "ratio": 0.584
+      }
+    ],
+    "background": "assets/v2/lipo-360-background.webp",
+    "ingredients": "PPC · Sodium Deoxycholate · Carnitine · Peptides",
+    "concentration": "PPC 1% · Sodium Deoxycholate 0.5% · Carnitine 0.35%",
+    "format": "10 ml",
+    "sourcePage": 41,
+    "cat": "body",
+    "brand": "LIPO 360",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 41",
+      "en": "Fix Face Catalog 21 · p. 41",
+      "ru": "Fix Face Каталог 21 · стр. 41",
+      "tr": "Fix Face Katalog 21 · s. 41"
+    },
+    "ingredientsI18n": {
+      "az": "PPC · Sodium Deoxycholate · Carnitine · Peptidlər",
+      "en": "PPC · Sodium Deoxycholate · Carnitine · Peptides",
+      "ru": "PPC · Sodium Deoxycholate · Carnitine · Пептиды",
+      "tr": "PPC · Sodium Deoxycholate · Carnitine · Peptitler"
+    }
+  },
+  {
+    "id": "yeellow-drop",
+    "name": "YELLOW DROP",
+    "category": "Bədən konturu",
+    "volume": "10 ml × 5",
+    "description": {
+      "az": "Üz və bədəndə lokal piy yığıntılarının korreksiyası üçün kataloqda təqdim olunan istifadəyə hazır peşəkar məhlul. Tam dəstdə 10 ml-lik 5 flakon var.",
+      "en": "A ready-to-use professional solution presented in the catalog for correction of localised fat deposits on the face and body. A full kit contains five 10 ml vials.",
+      "ru": "Готовый профессиональный раствор, представленный в каталоге для коррекции локальных жировых отложений лица и тела. Полный набор: 5 флаконов по 10 мл.",
+      "tr": "Katalogda yüz ve vücuttaki lokal yağ birikimlerinin düzeltilmesi için sunulan kullanıma hazır profesyonel solüsyon. Tam sette 10 ml’lik 5 flakon bulunur."
+    },
+    "image": "assets/yeellow-drop.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/yeellow-drop-0.webp",
+        "ratio": 2.055
+      },
+      {
+        "src": "assets/v2/yeellow-drop-1.webp",
+        "ratio": 0.583
+      }
+    ],
+    "background": "assets/v2/yeellow-drop-background.webp",
+    "ingredients": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptides",
+    "concentration": "Bromelain 100 ppm",
+    "format": "10 ml × 5",
+    "sourcePage": 39,
+    "cat": "body",
+    "brand": "YELLOW DROP",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 39",
+      "en": "Fix Face Catalog 21 · p. 39",
+      "ru": "Fix Face Каталог 21 · стр. 39",
+      "tr": "Fix Face Katalog 21 · s. 39"
+    },
+    "ingredientsI18n": {
+      "az": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptidlər",
+      "en": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptides",
+      "ru": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Пептиды",
+      "tr": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptitler"
+    }
+  },
+  {
+    "id": "cellix-pn",
+    "name": "CELLIX PN+",
+    "category": "Dəriyə qulluq",
+    "volume": "2.5 ml",
+    "description": {
+      "az": "Dərinin nəmliliyini, elastikliyini və keyfiyyətini dəstəkləmək üçün PN əsaslı skinbooster. İstifadəyə hazır, əvvəlcədən doldurulmuş 2.5 ml şprisdə təqdim olunur.",
+      "en": "A PN-based skin booster supporting skin hydration, elasticity and quality. Presented in a ready-to-use, prefilled 2.5 ml syringe.",
+      "ru": "Скинбустер на основе PN для поддержки увлажнения, эластичности и качества кожи. Готовый к применению предварительно наполненный шприц 2,5 мл.",
+      "tr": "Cildin nemini, elastikiyetini ve kalitesini destekleyen PN bazlı skinbooster. Kullanıma hazır, önceden doldurulmuş 2.5 ml enjektörde sunulur."
+    },
+    "image": "assets/cellix-pn.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/cellix-pn-0.webp",
+        "ratio": 0.366
+      }
+    ],
+    "background": "assets/v2/cellix-pn-background.webp",
+    "ingredients": "Polynucleotides (PN) · Sodium Hyaluronate · NMN/NAD+ · Glutathione · Lidocaine",
+    "concentration": "PN 2% · HA 1% · Lidocaine 0.3%",
+    "format": "2.5 ml",
+    "sourcePage": 35,
+    "cat": "skin",
+    "brand": "CELLIX",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 35",
+      "en": "Fix Face Catalog 21 · p. 35",
+      "ru": "Fix Face Каталог 21 · стр. 35",
+      "tr": "Fix Face Katalog 21 · s. 35"
+    },
+    "ingredientsI18n": {
+      "az": "Polynucleotides (PN) · Natrium hialuronat · NMN/NAD+ · Qlutation · Lidocaine",
+      "en": "Polynucleotides (PN) · Sodium Hyaluronate · NMN/NAD+ · Glutathione · Lidocaine",
+      "ru": "Polynucleotides (PN) · Гиалуронат натрия · NMN/NAD+ · Глутатион · Lidocaine",
+      "tr": "Polynucleotides (PN) · Sodyum Hyalüronat · NMN/NAD+ · Glutatyon · Lidocaine"
+    }
+  },
+  {
+    "id": "liporase",
+    "name": "LIPORASE",
+    "category": "Liftinq və köməkçi",
+    "volume": "10 vials",
+    "description": {
+      "az": "Daehan Nupharm istehsalı LIPORASE. Qablaşdırmada hialuronidaza 1,500 IU qeyd olunur. Bir qutuda 10 flakon təqdim edilir. Məhsulun təyinatı və uyğunluğu rəsmi təlimata əsasən dəqiqləşdirilməlidir.",
+      "en": "LIPORASE by Daehan Nupharm. The packaging states hyaluronidase 1,500 IU. Supplied as 10 vials per box. Product indications and suitability should be confirmed against the official instructions.",
+      "ru": "LIPORASE производства Daehan Nupharm. На упаковке указана гиалуронидаза 1 500 МЕ. В коробке 10 флаконов. Назначение и применимость уточняются по официальной инструкции.",
+      "tr": "Daehan Nupharm üretimi LIPORASE. Ambalajda hyalüronidaz 1,500 IU belirtilir. Bir kutuda 10 flakon sunulur. Kullanım amacı ve uygunluk resmî talimata göre doğrulanmalıdır."
+    },
+    "image": "assets/liporase.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/liporase-0.webp",
+        "ratio": 2.098
+      }
+    ],
+    "background": "assets/v2/liporase-background.webp",
+    "ingredients": "Hyaluronidase",
+    "concentration": "1,500 IU",
+    "format": "10 vials",
+    "sourcePage": null,
+    "cat": "support",
+    "brand": "LIPORASE",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuronidaza",
+      "en": "Hyaluronidase",
+      "ru": "Гиалуронидаза",
+      "tr": "Hyalüronidaz"
+    }
+  },
+  {
+    "id": "hyalmas",
+    "name": "HYALMASS 50",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": {
+      "az": "HYALMASS 50, hialuron turşusu əsaslı Premium HA Skin Booster seriyasıdır. Qablaşdırmada 250–300 milyon Dalton HA qeyd olunur. Tam təqdimat formatı barədə komandamızdan məlumat alın.",
+      "en": "HYALMASS 50 is a hyaluronic acid-based Premium HA Skin Booster. The packaging states 250–300 million Dalton HA. Contact our team for the complete presentation details.",
+      "ru": "HYALMASS 50 — Premium HA Skin Booster на основе гиалуроновой кислоты. На упаковке указано HA 250–300 млн Дальтон. Детали комплектации уточняйте у команды.",
+      "tr": "HYALMASS 50, hyalüronik asit bazlı Premium HA Skin Booster serisidir. Ambalajda 250–300 milyon Dalton HA belirtilir. Tam sunum bilgilerini ekibimizden öğrenebilirsiniz."
+    },
+    "image": "assets/hyalmas.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/hyalmas-0.webp",
+        "ratio": 2.768
+      }
+    ],
+    "background": "assets/v2/hyalmas-background.webp",
+    "ingredients": "Hyaluronic Acid",
+    "concentration": "",
+    "format": "",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "HYALMASS",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu",
+      "en": "Hyaluronic Acid",
+      "ru": "Гиалуроновая кислота",
+      "tr": "Hyalüronik Asit"
+    }
+  },
+  {
+    "id": "exoroot",
+    "name": "EXOROOT",
+    "category": "Saç və baş dərisi",
+    "volume": "100 mg + 5 ml",
+    "description": {
+      "az": "Saç dərisinə qulluq və follikulların ümumi vəziyyətini dəstəkləmək üçün iki komponentli sistem. Bir dəstdə 100 mg liofilizə toz və 5 ml Scalp Renew məhlulu təqdim olunur.",
+      "en": "A two-component system for scalp care and support of overall follicle condition. Each kit contains 100 mg of lyophilised powder and 5 ml of Scalp Renew solution.",
+      "ru": "Двухкомпонентная система для ухода за кожей головы и поддержки общего состояния фолликулов. В наборе 100 мг лиофилизированного порошка и 5 мл раствора Scalp Renew.",
+      "tr": "Saç derisi bakımı ve foliküllerin genel durumunu desteklemek için iki bileşenli sistem. Bir sette 100 mg liyofilize toz ve 5 ml Scalp Renew solüsyonu sunulur."
+    },
+    "image": "assets/exoroot.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/exoroot-0.webp",
+        "ratio": 1.65
+      },
+      {
+        "src": "assets/v2/exoroot-1.webp",
+        "ratio": 0.738
+      },
+      {
+        "src": "assets/v2/exoroot-2.webp",
+        "ratio": 0.733
+      }
+    ],
+    "background": "assets/v2/exoroot-background.webp",
+    "ingredients": "Sodium Hyaluronate · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptides",
+    "concentration": "",
+    "format": "100 mg + 5 ml",
+    "sourcePage": 37,
+    "cat": "hair",
+    "brand": "EXOROOT",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 37",
+      "en": "Fix Face Catalog 21 · p. 37",
+      "ru": "Fix Face Каталог 21 · стр. 37",
+      "tr": "Fix Face Katalog 21 · s. 37"
+    },
+    "ingredientsI18n": {
+      "az": "Natrium hialuronat · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptidlər",
+      "en": "Sodium Hyaluronate · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptides",
+      "ru": "Гиалуронат натрия · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Пептиды",
+      "tr": "Sodyum Hyalüronat · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptitler"
+    }
+  },
+  {
+    "id": "exo-nad",
+    "name": "EXO NAD+",
+    "category": "Dəriyə qulluq",
+    "volume": "100 mg + 6 ml",
+    "description": {
+      "az": "Dərinin nəmliliyini, elastikliyini və ümumi görünüşünü dəstəkləyən iki komponentli peşəkar qulluq sistemi. 100 mg liofilizə toz və 6 ml aktivatordan ibarətdir.",
+      "en": "A two-component professional care system supporting skin hydration, elasticity and overall appearance. Contains 100 mg of lyophilised powder and 6 ml of activator.",
+      "ru": "Двухкомпонентная профессиональная система ухода для поддержки увлажнения, эластичности и общего вида кожи. Содержит 100 мг лиофилизированного порошка и 6 мл активатора.",
+      "tr": "Cildin nemini, elastikiyetini ve genel görünümünü destekleyen iki bileşenli profesyonel bakım sistemi. 100 mg liyofilize toz ve 6 ml aktivatör içerir."
+    },
+    "image": "assets/exo-nad.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/exo-nad-0.webp",
+        "ratio": 1.716
+      },
+      {
+        "src": "assets/v2/exo-nad-1.webp",
+        "ratio": 0.778
+      },
+      {
+        "src": "assets/v2/exo-nad-2.webp",
+        "ratio": 0.778
+      }
+    ],
+    "background": "assets/v2/exo-nad-background.webp",
+    "ingredients": "NAD+ · Plant Extracellular Vesicles · Sodium Hyaluronate · Sodium DNA · Collagen · Peptides",
+    "concentration": "",
+    "format": "100 mg + 6 ml",
+    "sourcePage": 33,
+    "cat": "skin",
+    "brand": "EXO NAD+",
+    "source": {
+      "az": "Fix Face Kataloq 21 · səh. 33",
+      "en": "Fix Face Catalog 21 · p. 33",
+      "ru": "Fix Face Каталог 21 · стр. 33",
+      "tr": "Fix Face Katalog 21 · s. 33"
+    },
+    "ingredientsI18n": {
+      "az": "NAD+ · Plant Extracellular Vesicles · Natrium hialuronat · Sodium DNA · Kollagen · Peptidlər",
+      "en": "NAD+ · Plant Extracellular Vesicles · Sodium Hyaluronate · Sodium DNA · Collagen · Peptides",
+      "ru": "NAD+ · Plant Extracellular Vesicles · Гиалуронат натрия · Sodium DNA · Коллаген · Пептиды",
+      "tr": "NAD+ · Plant Extracellular Vesicles · Sodyum Hyalüronat · Sodium DNA · Kolajen · Peptitler"
+    }
+  },
+  {
+    "id": "nxn",
+    "name": "NXN — NAD+ EXO PN",
+    "category": "Dəriyə qulluq",
+    "volume": "1 set · 2 vials",
+    "description": {
+      "az": "NAD+ EXO PN iki komponentli dəsti. Qablaşdırmaya əsasən, birinci flakonda exosome, NAD+ və NMN; ikinci flakonda isə PN, kollagen və peptidlər qeyd olunur.",
+      "en": "A two-component NAD+ EXO PN kit. According to the packaging, vial 1 lists exosomes, NAD+ and NMN; vial 2 lists PN, collagen and peptides.",
+      "ru": "Двухкомпонентный набор NAD+ EXO PN. По данным упаковки, флакон 1 содержит экзосомы, NAD+ и NMN; флакон 2 — PN, коллаген и пептиды.",
+      "tr": "İki bileşenli NAD+ EXO PN seti. Ambalaja göre birinci flakonda exosome, NAD+ ve NMN; ikinci flakonda PN, kolajen ve peptitler belirtilir."
+    },
+    "image": "assets/nxn.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/nxn-0.webp",
+        "ratio": 2.846
+      }
+    ],
+    "background": "assets/v2/nxn-background.webp",
+    "ingredients": "Exosomes · NAD+ · NMN · PN · Collagen · Peptides",
+    "concentration": "",
+    "format": "1 set · 2 vials",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "RIOLA",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Exosome · NAD+ · NMN · PN · Kollagen · Peptidlər",
+      "en": "Exosomes · NAD+ · NMN · PN · Collagen · Peptides",
+      "ru": "Экзосомы · NAD+ · NMN · PN · Коллаген · Пептиды",
+      "tr": "Exosome · NAD+ · NMN · PN · Kolajen · Peptitler"
+    }
+  },
+  {
+    "id": "lxc",
+    "name": "LXC — LACTO EXO COLLA",
+    "category": "Dəriyə qulluq",
+    "volume": "",
+    "description": {
+      "az": "Riola Lacto Exo Colla dəsti. Qablaşdırmada exosome kompleksi (lacto, ginseng, cica, camellia), PDRN və kollagen qeyd olunur. Qutu və iki komponentli flakon dəsti ilə təqdim olunur.",
+      "en": "Riola Lacto Exo Colla kit. The packaging lists an exosome complex (lacto, ginseng, cica, camellia), PDRN and collagen. Presented with boxes and a two-component vial set.",
+      "ru": "Набор Riola Lacto Exo Colla. На упаковке указаны комплекс экзосом (lacto, ginseng, cica, camellia), PDRN и коллаген. Представлен с коробками и двухкомпонентным набором флаконов.",
+      "tr": "Riola Lacto Exo Colla seti. Ambalajda exosome kompleksi (lacto, ginseng, cica, camellia), PDRN ve kolajen belirtilir. Kutular ve iki bileşenli flakon setiyle sunulur."
+    },
+    "image": "assets/lxc.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/lxc-0.webp",
+        "ratio": 2.212
+      }
+    ],
+    "background": "assets/v2/lxc-background.webp",
+    "ingredients": "Exosome Complex · PDRN · Collagen",
+    "concentration": "",
+    "format": "",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "RIOLA",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Exosome Complex · PDRN · Kollagen",
+      "en": "Exosome Complex · PDRN · Collagen",
+      "ru": "Exosome Complex · PDRN · Коллаген",
+      "tr": "Exosome Complex · PDRN · Kolajen"
+    }
+  },
+  {
+    "id": "nxc",
+    "name": "NXC — NAD+ EXO COLLA",
+    "category": "Dəriyə qulluq",
+    "volume": "1 set · 2 vials",
+    "description": {
+      "az": "Riola NAD+ Exo Colla dəsti. Qablaşdırmada ginseng, cica və camellia exosome kompleksi ilə NAD qeyd olunur. İki flakonlu dəst formatında təqdim edilir.",
+      "en": "Riola NAD+ Exo Colla kit. The packaging lists an exosome complex of ginseng, cica and camellia with NAD. Presented as a two-vial kit.",
+      "ru": "Набор Riola NAD+ Exo Colla. На упаковке указаны комплекс экзосом ginseng, cica и camellia и NAD. Формат набора из двух флаконов.",
+      "tr": "Riola NAD+ Exo Colla seti. Ambalajda ginseng, cica ve camellia exosome kompleksi ile NAD belirtilir. İki flakonlu set olarak sunulur."
+    },
+    "image": "assets/nxc.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/nxc-0.webp",
+        "ratio": 2.793
+      }
+    ],
+    "background": "assets/v2/nxc-background.webp",
+    "ingredients": "Exosome Complex · NAD+",
+    "concentration": "",
+    "format": "1 set · 2 vials",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "RIOLA",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Exosome Complex · NAD+",
+      "en": "Exosome Complex · NAD+",
+      "ru": "Exosome Complex · NAD+",
+      "tr": "Exosome Complex · NAD+"
+    }
+  },
+  {
+    "id": "selastin",
+    "name": "SELASTIN EXO PLUS",
+    "category": "Dəriyə qulluq",
+    "volume": "1 set · 2 vials",
+    "description": {
+      "az": "SELASTIN EXO PLUS Premium Skin Booster dəsti. Qablaşdırmada exosome, PDRN, kollagen və peptidlər qeyd olunur. Dəst iki flakondan ibarətdir.",
+      "en": "SELASTIN EXO PLUS Premium Skin Booster kit. The packaging lists exosomes, PDRN, collagen and peptides. The kit contains two vials.",
+      "ru": "Набор SELASTIN EXO PLUS Premium Skin Booster. На упаковке указаны экзосомы, PDRN, коллаген и пептиды. Набор содержит два флакона.",
+      "tr": "SELASTIN EXO PLUS Premium Skin Booster seti. Ambalajda exosome, PDRN, kolajen ve peptitler belirtilir. Set iki flakondan oluşur."
+    },
+    "image": "assets/selastin.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/selastin-0.webp",
+        "ratio": 2.232
+      }
+    ],
+    "background": "assets/v2/selastin-background.webp",
+    "ingredients": "Exosomes · PDRN · Collagen · Peptides",
+    "concentration": "",
+    "format": "1 set · 2 vials",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "SELASTIN",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Exosome · PDRN · Kollagen · Peptidlər",
+      "en": "Exosomes · PDRN · Collagen · Peptides",
+      "ru": "Экзосомы · PDRN · Коллаген · Пептиды",
+      "tr": "Exosome · PDRN · Kolajen · Peptitler"
+    }
+  },
+  {
+    "id": "riola-exotriple",
+    "name": "RIOLA EXOTRIPLE",
+    "category": "Dəriyə qulluq",
+    "volume": "1 set · 2 vials",
+    "description": {
+      "az": "Riola Exotriple Premium Skin Booster seriyası. Qablaşdırmada exosome, PDRN, kollagen və peptidlər qeyd olunur. Birinci və ikinci komponent ayrı flakonlarda təqdim edilir.",
+      "en": "Riola Exotriple Premium Skin Booster series. The packaging lists exosomes, PDRN, collagen and peptides. Components 1 and 2 are presented in separate vials.",
+      "ru": "Серия Riola Exotriple Premium Skin Booster. На упаковке указаны экзосомы, PDRN, коллаген и пептиды. Компоненты 1 и 2 представлены в отдельных флаконах.",
+      "tr": "Riola Exotriple Premium Skin Booster serisi. Ambalajda exosome, PDRN, kolajen ve peptitler belirtilir. Birinci ve ikinci bileşen ayrı flakonlarda sunulur."
+    },
+    "image": "assets/riola-exotriple.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/riola-exotriple-0.webp",
+        "ratio": 2.0
+      }
+    ],
+    "background": "assets/v2/riola-exotriple-background.webp",
+    "ingredients": "Exosomes · PDRN · Collagen · Peptides",
+    "concentration": "",
+    "format": "1 set · 2 vials",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "RIOLA",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Exosome · PDRN · Kollagen · Peptidlər",
+      "en": "Exosomes · PDRN · Collagen · Peptides",
+      "ru": "Экзосомы · PDRN · Коллаген · Пептиды",
+      "tr": "Exosome · PDRN · Kolajen · Peptitler"
+    }
+  },
+  {
+    "id": "hyaron",
+    "name": "HYARON",
+    "category": "Dəriyə qulluq",
+    "volume": "2.5 ml × 10",
+    "description": {
+      "az": "Dongkook Pharmaceutical tərəfindən istehsal olunan Hyaron Prefilled Inj. Qablaşdırmada natrium hialuronat 25 mq/2,5 ml və hər biri 2,5 ml olan 10 əvvəlcədən doldurulmuş şpris göstərilir.",
+      "en": "Hyaron Prefilled Inj. by Dongkook Pharmaceutical. The packaging states sodium hyaluronate 25 mg/2.5 ml and 10 prefilled syringes of 2.5 ml each.",
+      "ru": "Hyaron Prefilled Inj. от Dongkook Pharmaceutical. На упаковке указаны гиалуронат натрия 25 мг/2,5 мл и 10 предварительно наполненных шприцев по 2,5 мл.",
+      "tr": "Dongkook Pharmaceutical üretimi Hyaron Prefilled Inj. Ambalajda sodyum hyalüronat 25 mg/2,5 ml ve her biri 2,5 ml olan 10 kullanıma hazır enjektör belirtilir."
+    },
+    "image": "assets/hyaron-new.png",
+    "cutouts": [
+      {
+        "src": "assets/v2/hyaron-0.webp",
+        "ratio": 1.742
+      }
+    ],
+    "background": "assets/v2/hyaron-background.webp",
+    "ingredients": "Sodium Hyaluronate",
+    "concentration": "25 mg / 2.5 ml",
+    "format": "2.5 ml × 10",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "DONGKOOK PHARMACEUTICAL",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Natrium hialuronat",
+      "en": "Sodium Hyaluronate",
+      "ru": "Гиалуронат натрия",
+      "tr": "Sodyum Hyalüronat"
+    }
+  },
+  {
+    "id": "kiara-reju",
+    "name": "KIARA REJU",
+    "category": "Dəriyə qulluq",
+    "volume": "2.2 ml × 3",
+    "description": {
+      "az": "Hialuron turşusu və PDRN tərkibli Kiara Reju seriyası. Qablaşdırmada hər biri 2.2 ml olan 3 şpris qeyd olunur. Tam məhsul sənədləri və mövcudluq barədə komandamızdan məlumat alın.",
+      "en": "Kiara Reju contains hyaluronic acid and PDRN. The packaging specifies three syringes of 2.2 ml each. Contact our team for full product documentation and availability.",
+      "ru": "Kiara Reju содержит гиалуроновую кислоту и PDRN. На упаковке указаны 3 шприца по 2,2 мл. Документацию и наличие уточняйте у команды.",
+      "tr": "Kiara Reju hyalüronik asit ve PDRN içerir. Ambalajda her biri 2.2 ml olan 3 enjektör belirtilir. Ürün belgeleri ve stok durumu için ekibimizle iletişime geçin."
+    },
+    "image": "assets/kiara-reju.webp",
+    "cutouts": [
+      {
+        "src": "assets/v2/kiara-reju-0.webp",
+        "ratio": 0.527
+      }
+    ],
+    "background": "assets/v2/kiara-reju-background.webp",
+    "ingredients": "Hyaluronic Acid · PDRN",
+    "concentration": "",
+    "format": "2.2 ml × 3",
+    "sourcePage": null,
+    "cat": "skin",
+    "brand": "KIARA REJU",
+    "source": {
+      "az": "Orijinal məhsul qablaşdırması",
+      "en": "Original product packaging",
+      "ru": "Оригинальная упаковка продукта",
+      "tr": "Orijinal ürün ambalajı"
+    },
+    "ingredientsI18n": {
+      "az": "Hialuron turşusu · PDRN",
+      "en": "Hyaluronic Acid · PDRN",
+      "ru": "Гиалуроновая кислота · PDRN",
+      "tr": "Hyalüronik Asit · PDRN"
+    }
+  }
+]
