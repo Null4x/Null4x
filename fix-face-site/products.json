@@ -176,14 +176,6 @@
     "image": "assets/hyalmas.webp"
   },
   {
-    "id": "kiara-reju",
-    "name": "kiara reju",
-    "category": "Dəriyə qulluq",
-    "volume": "",
-    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
-    "image": "assets/kiara-reju.webp"
-  },
-  {
     "id": "lipo-360",
     "name": "LIPO 360",
     "category": "Bədən konturu",
@@ -206,22 +198,6 @@
     "volume": "",
     "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
     "image": "assets/lxc.webp"
-  },
-  {
-    "id": "nxc",
-    "name": "NXC",
-    "category": "Dəriyə qulluq",
-    "volume": "",
-    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
-    "image": "assets/nxc.webp"
-  },
-  {
-    "id": "nxn",
-    "name": "NXN",
-    "category": "Dəriyə qulluq",
-    "volume": "",
-    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
-    "image": "assets/nxn.webp"
   },
   {
     "id": "plla",
@@ -254,22 +230,6 @@
     "volume": "1.1 ml",
     "description": "Lidokainli, çarpaz bağlanmış hialuron turşusu əsaslı Queen Fill dermal dolğusu.",
     "image": "assets/qf-sub-q.webp"
-  },
-  {
-    "id": "riola-exotriple",
-    "name": "riola exotriple",
-    "category": "Dəriyə qulluq",
-    "volume": "",
-    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
-    "image": "assets/riola-exotriple.webp"
-  },
-  {
-    "id": "selastin",
-    "name": "selastin",
-    "category": "Dəriyə qulluq",
-    "volume": "",
-    "description": "Məhsulun tərkibi, təqdimat formatı və mövcudluğu haqqında komandamızdan məlumat alın.",
-    "image": "assets/selastin.webp"
   },
   {
     "id": "yeellow-drop",
