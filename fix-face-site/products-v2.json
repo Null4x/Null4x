@@ -13,11 +13,11 @@
     "image": "assets/fix-face-ultra.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-ultra-0.webp",
+        "src": "assets/products/fix-face-ultra.webp",
         "ratio": 2.435
       }
     ],
-    "background": "assets/v2/fix-face-ultra-background.webp",
+    "background": "assets/posters/fix-face-ultra.webp",
     "ingredients": "Sodium Hyaluronate · Phosphate-buffered Saline",
     "concentration": "HA 20 mg/ml",
     "format": "",
@@ -35,7 +35,8 @@
       "en": "Sodium Hyaluronate · Phosphate-buffered Saline",
       "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
-    }
+    },
+    "poster": "assets/posters/fix-face-ultra.webp"
   },
   {
     "id": "fix-face-ultra-plus",
@@ -51,11 +52,11 @@
     "image": "assets/fix-face-ultra-plus.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-ultra-plus-0.webp",
-        "ratio": 2.242
+        "src": "assets/products/fix-face-ultra-plus.webp",
+        "ratio": 2.244
       }
     ],
-    "background": "assets/v2/fix-face-ultra-plus-background.webp",
+    "background": "assets/posters/fix-face-ultra-plus.webp",
     "ingredients": "Sodium Hyaluronate · Phosphate-buffered Saline",
     "concentration": "HA 20 mg/ml",
     "format": "",
@@ -73,7 +74,8 @@
       "en": "Sodium Hyaluronate · Phosphate-buffered Saline",
       "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
-    }
+    },
+    "poster": "assets/posters/fix-face-ultra-plus.webp"
   },
   {
     "id": "fix-face-grand",
@@ -89,11 +91,11 @@
     "image": "assets/fix-face-grand.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-grand-0.webp",
-        "ratio": 2.242
+        "src": "assets/products/fix-face-grand.webp",
+        "ratio": 2.244
       }
     ],
-    "background": "assets/v2/fix-face-grand-background.webp",
+    "background": "assets/posters/fix-face-grand.webp",
     "ingredients": "Sodium Hyaluronate · Phosphate-buffered Saline",
     "concentration": "HA 24 mg/ml",
     "format": "",
@@ -111,7 +113,8 @@
       "en": "Sodium Hyaluronate · Phosphate-buffered Saline",
       "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
-    }
+    },
+    "poster": "assets/posters/fix-face-grand.webp"
   },
   {
     "id": "plla",
@@ -127,19 +130,11 @@
     "image": "assets/plla.webp",
     "cutouts": [
       {
-        "src": "assets/v2/plla-0.webp",
-        "ratio": 1.363
-      },
-      {
-        "src": "assets/v2/plla-1.webp",
-        "ratio": 0.757
-      },
-      {
-        "src": "assets/v2/plla-2.webp",
-        "ratio": 0.751
+        "src": "assets/products/plla.webp",
+        "ratio": 1.533
       }
     ],
-    "background": "assets/v2/plla-background.webp",
+    "background": "assets/posters/plla.webp",
     "ingredients": "PLLA · Mannitol · Peptides · Glutathione · Sodium Carboxymethylcellulose",
     "concentration": "",
     "format": "365 mg + 5 ml",
@@ -157,7 +152,8 @@
       "en": "PLLA · Mannitol · Peptides · Glutathione · Sodium Carboxymethylcellulose",
       "ru": "PLLA · Mannitol · Пептиды · Глутатион · Sodium Carboxymethylcellulose",
       "tr": "PLLA · Mannitol · Peptitler · Glutatyon · Sodium Carboxymethylcellulose"
-    }
+    },
+    "poster": "assets/posters/plla.webp"
   },
   {
     "id": "fix-face-cpdrn",
@@ -173,15 +169,11 @@
     "image": "assets/fix-face-cpdrn.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-cpdrn-0.webp",
-        "ratio": 2.246
-      },
-      {
-        "src": "assets/v2/fix-face-cpdrn-1.webp",
-        "ratio": 0.671
+        "src": "assets/products/fix-face-cpdrn.webp",
+        "ratio": 2.247
       }
     ],
-    "background": "assets/v2/fix-face-cpdrn-background.webp",
+    "background": "assets/posters/fix-face-cpdrn.webp",
     "ingredients": "PDRN · Hyaluronic Acid · Peptides · Glutathione",
     "concentration": "",
     "format": "5 ml × 5",
@@ -199,7 +191,8 @@
       "en": "PDRN · Hyaluronic Acid · Peptides · Glutathione",
       "ru": "PDRN · Гиалуроновая кислота · Пептиды · Глутатион",
       "tr": "PDRN · Hyalüronik Asit · Peptitler · Glutatyon"
-    }
+    },
+    "poster": "assets/posters/fix-face-cpdrn.webp"
   },
   {
     "id": "fix-face-ha-18",
@@ -215,15 +208,11 @@
     "image": "assets/fix-face-ha-18.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-ha-18-0.webp",
+        "src": "assets/products/fix-face-ha-18.webp",
         "ratio": 2.226
-      },
-      {
-        "src": "assets/v2/fix-face-ha-18-1.webp",
-        "ratio": 0.861
       }
     ],
-    "background": "assets/v2/fix-face-ha-18-background.webp",
+    "background": "assets/posters/fix-face-ha-18.webp",
     "ingredients": "Hyaluronic Acid · Proline · Alanine · Glycine · Serine · Amino Acids",
     "concentration": "",
     "format": "5 ml × 5",
@@ -241,7 +230,8 @@
       "en": "Hyaluronic Acid · Proline · Alanine · Glycine · Serine · Amino Acids",
       "ru": "Гиалуроновая кислота · Proline · Alanine · Glycine · Serine · Amino Acids",
       "tr": "Hyalüronik Asit · Proline · Alanine · Glycine · Serine · Amino Acids"
-    }
+    },
+    "poster": "assets/posters/fix-face-ha-18.webp"
   },
   {
     "id": "fix-face-collagen",
@@ -257,15 +247,11 @@
     "image": "assets/fix-face-collagen.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-collagen-0.webp",
-        "ratio": 2.242
-      },
-      {
-        "src": "assets/v2/fix-face-collagen-1.webp",
-        "ratio": 0.973
+        "src": "assets/products/fix-face-collagen.webp",
+        "ratio": 2.244
       }
     ],
-    "background": "assets/v2/fix-face-collagen-background.webp",
+    "background": "assets/posters/fix-face-collagen.webp",
     "ingredients": "Hyaluronic Acid · Collagen · Phosphate-buffered Saline",
     "concentration": "HA 0.6% · Collagen 0.2%",
     "format": "5 ml × 5",
@@ -283,7 +269,8 @@
       "en": "Hyaluronic Acid · Collagen · Phosphate-buffered Saline",
       "ru": "Гиалуроновая кислота · Коллаген · Физиологический раствор с фосфатным буфером",
       "tr": "Hyalüronik Asit · Kolajen · Fosfat Tamponlu Serum Fizyolojik"
-    }
+    },
+    "poster": "assets/posters/fix-face-collagen.webp"
   },
   {
     "id": "fix-face-skin-booster",
@@ -299,15 +286,11 @@
     "image": "assets/fix-face-skin-booster.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-skin-booster-0.webp",
-        "ratio": 2.252
-      },
-      {
-        "src": "assets/v2/fix-face-skin-booster-1.webp",
-        "ratio": 0.861
+        "src": "assets/products/fix-face-skin-booster.webp",
+        "ratio": 2.254
       }
     ],
-    "background": "assets/v2/fix-face-skin-booster-background.webp",
+    "background": "assets/posters/fix-face-skin-booster.webp",
     "ingredients": "Hyaluronic Acid · Phosphate-buffered Saline",
     "concentration": "HA 0.8%",
     "format": "5 ml × 5",
@@ -325,7 +308,8 @@
       "en": "Hyaluronic Acid · Phosphate-buffered Saline",
       "ru": "Гиалуроновая кислота · Физиологический раствор с фосфатным буфером",
       "tr": "Hyalüronik Asit · Fosfat Tamponlu Serum Fizyolojik"
-    }
+    },
+    "poster": "assets/posters/fix-face-skin-booster.webp"
   },
   {
     "id": "fix-face-pdo",
@@ -341,11 +325,11 @@
     "image": "assets/fix-face-pdo.webp",
     "cutouts": [
       {
-        "src": "assets/v2/fix-face-pdo-0.webp",
-        "ratio": 0.666
+        "src": "assets/products/fix-face-pdo.webp",
+        "ratio": 0.456
       }
     ],
-    "background": "assets/v2/fix-face-pdo-background.webp",
+    "background": "assets/posters/fix-face-pdo.webp",
     "ingredients": "Polydioxanone (PDO)",
     "concentration": "",
     "format": "6 pcs · Cog 18 × 100",
@@ -363,7 +347,8 @@
       "en": "Polydioxanone (PDO)",
       "ru": "Polydioxanone (PDO)",
       "tr": "Polydioxanone (PDO)"
-    }
+    },
+    "poster": "assets/posters/fix-face-pdo.webp"
   },
   {
     "id": "agasthi-h",
@@ -379,11 +364,11 @@
     "image": "assets/agasthi-h.webp",
     "cutouts": [
       {
-        "src": "assets/v2/agasthi-h-0.webp",
+        "src": "assets/products/agasthi-h.webp",
         "ratio": 1.923
       }
     ],
-    "background": "assets/v2/agasthi-h-background.webp",
+    "background": "assets/posters/agasthi-h.webp",
     "ingredients": "Stabilised Hyaluronic Acid · Lidocaine HCl",
     "concentration": "HA 20 mg/ml",
     "format": "10 ml",
@@ -401,7 +386,8 @@
       "en": "Stabilised Hyaluronic Acid · Lidocaine HCl",
       "ru": "Стабилизированная гиалуроновая кислота · Лидокаин HCl",
       "tr": "Stabilize Hyalüronik Asit · Lidokain HCl"
-    }
+    },
+    "poster": "assets/posters/agasthi-h.webp"
   },
   {
     "id": "agasthi-body",
@@ -417,11 +403,11 @@
     "image": "assets/agasthi-body.webp",
     "cutouts": [
       {
-        "src": "assets/v2/agasthi-body-0.webp",
+        "src": "assets/products/agasthi-body.webp",
         "ratio": 0.516
       }
     ],
-    "background": "assets/v2/agasthi-body-background.webp",
+    "background": "assets/posters/agasthi-body.webp",
     "ingredients": "Stabilised Hyaluronic Acid",
     "concentration": "24 mg/ml",
     "format": "100 cc",
@@ -439,7 +425,8 @@
       "en": "Stabilised Hyaluronic Acid",
       "ru": "Стабилизированная гиалуроновая кислота",
       "tr": "Stabilize Hyalüronik Asit"
-    }
+    },
+    "poster": "assets/posters/agasthi-body.webp"
   },
   {
     "id": "agasthi-fine",
@@ -455,11 +442,11 @@
     "image": "assets/agasthi-fine.webp",
     "cutouts": [
       {
-        "src": "assets/v2/agasthi-fine-0.webp",
-        "ratio": 1.931
+        "src": "assets/products/agasthi-fine.webp",
+        "ratio": 1.928
       }
     ],
-    "background": "assets/v2/agasthi-fine-background.webp",
+    "background": "assets/posters/agasthi-fine.webp",
     "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
     "concentration": "HA 20 mg/ml",
     "format": "1 ml",
@@ -477,7 +464,8 @@
       "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
-    }
+    },
+    "poster": "assets/posters/agasthi-fine.webp"
   },
   {
     "id": "agasthi-deep",
@@ -493,11 +481,11 @@
     "image": "assets/agasthi-deep.webp",
     "cutouts": [
       {
-        "src": "assets/v2/agasthi-deep-0.webp",
+        "src": "assets/products/agasthi-deep.webp",
         "ratio": 1.931
       }
     ],
-    "background": "assets/v2/agasthi-deep-background.webp",
+    "background": "assets/posters/agasthi-deep.webp",
     "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
     "concentration": "HA 20 mg/ml",
     "format": "1 ml",
@@ -515,7 +503,8 @@
       "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
-    }
+    },
+    "poster": "assets/posters/agasthi-deep.webp"
   },
   {
     "id": "agasthi-sub-q",
@@ -531,11 +520,11 @@
     "image": "assets/agasthi-sub-q.webp",
     "cutouts": [
       {
-        "src": "assets/v2/agasthi-sub-q-0.webp",
-        "ratio": 2.435
+        "src": "assets/products/agasthi-sub-q.webp",
+        "ratio": 2.439
       }
     ],
-    "background": "assets/v2/agasthi-sub-q-background.webp",
+    "background": "assets/posters/agasthi-sub-q.webp",
     "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
     "concentration": "HA 20 mg/ml",
     "format": "1 ml",
@@ -553,7 +542,8 @@
       "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
-    }
+    },
+    "poster": "assets/posters/agasthi-sub-q.webp"
   },
   {
     "id": "agasthi-s",
@@ -569,11 +559,11 @@
     "image": "assets/agasthi-s.webp",
     "cutouts": [
       {
-        "src": "assets/v2/agasthi-s-0.webp",
+        "src": "assets/products/agasthi-s.webp",
         "ratio": 1.926
       }
     ],
-    "background": "assets/v2/agasthi-s-background.webp",
+    "background": "assets/posters/agasthi-s.webp",
     "ingredients": "Stabilised Hyaluronic Acid · Lidocaine HCl",
     "concentration": "HA 20 mg/ml",
     "format": "10 ml",
@@ -591,7 +581,8 @@
       "en": "Stabilised Hyaluronic Acid · Lidocaine HCl",
       "ru": "Стабилизированная гиалуроновая кислота · Лидокаин HCl",
       "tr": "Stabilize Hyalüronik Asit · Lidokain HCl"
-    }
+    },
+    "poster": "assets/posters/agasthi-s.webp"
   },
   {
     "id": "audrey-h",
@@ -607,11 +598,11 @@
     "image": "assets/audrey-h.webp",
     "cutouts": [
       {
-        "src": "assets/v2/audrey-h-0.webp",
-        "ratio": 3.409
+        "src": "assets/products/audrey-h.webp",
+        "ratio": 3.415
       }
     ],
-    "background": "assets/v2/audrey-h-background.webp",
+    "background": "assets/posters/audrey-h.webp",
     "ingredients": "Hyaluronic Acid",
     "concentration": "",
     "format": "",
@@ -629,7 +620,8 @@
       "en": "Hyaluronic Acid",
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
-    }
+    },
+    "poster": "assets/posters/audrey-h.webp"
   },
   {
     "id": "audrey-m",
@@ -645,11 +637,11 @@
     "image": "assets/audrey-m.webp",
     "cutouts": [
       {
-        "src": "assets/v2/audrey-m-0.webp",
-        "ratio": 3.191
+        "src": "assets/products/audrey-m.webp",
+        "ratio": 3.189
       }
     ],
-    "background": "assets/v2/audrey-m-background.webp",
+    "background": "assets/posters/audrey-m.webp",
     "ingredients": "Hyaluronic Acid",
     "concentration": "",
     "format": "",
@@ -667,7 +659,8 @@
       "en": "Hyaluronic Acid",
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
-    }
+    },
+    "poster": "assets/posters/audrey-m.webp"
   },
   {
     "id": "audrey-m-2ml",
@@ -683,11 +676,11 @@
     "image": "assets/audrey-m-2ml.webp",
     "cutouts": [
       {
-        "src": "assets/v2/audrey-m-2ml-0.webp",
-        "ratio": 3.08
+        "src": "assets/products/audrey-m-2ml.webp",
+        "ratio": 3.091
       }
     ],
-    "background": "assets/v2/audrey-m-2ml-background.webp",
+    "background": "assets/posters/audrey-m-2ml.webp",
     "ingredients": "Hyaluronic Acid",
     "concentration": "",
     "format": "",
@@ -705,7 +698,8 @@
       "en": "Hyaluronic Acid",
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
-    }
+    },
+    "poster": "assets/posters/audrey-m-2ml.webp"
   },
   {
     "id": "qf-fi-ne",
@@ -721,11 +715,11 @@
     "image": "assets/qf-fi-ne.webp",
     "cutouts": [
       {
-        "src": "assets/v2/qf-fi-ne-0.webp",
-        "ratio": 0.435
+        "src": "assets/products/qf-fi-ne.webp",
+        "ratio": 0.433
       }
     ],
-    "background": "assets/v2/qf-fi-ne-background.webp",
+    "background": "assets/posters/qf-fi-ne.webp",
     "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
     "concentration": "HA 24 mg/ml",
     "format": "1.1 ml",
@@ -744,7 +738,8 @@
       "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
-    }
+    },
+    "poster": "assets/posters/qf-fi-ne.webp"
   },
   {
     "id": "qf-deep",
@@ -760,11 +755,11 @@
     "image": "assets/qf-deep.webp",
     "cutouts": [
       {
-        "src": "assets/v2/qf-deep-0.webp",
-        "ratio": 0.435
+        "src": "assets/products/qf-deep.webp",
+        "ratio": 0.434
       }
     ],
-    "background": "assets/v2/qf-deep-background.webp",
+    "background": "assets/posters/qf-deep.webp",
     "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
     "concentration": "HA 24 mg/ml",
     "format": "1.1 ml",
@@ -783,7 +778,8 @@
       "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
-    }
+    },
+    "poster": "assets/posters/qf-deep.webp"
   },
   {
     "id": "qf-sub-q",
@@ -799,11 +795,11 @@
     "image": "assets/qf-sub-q.webp",
     "cutouts": [
       {
-        "src": "assets/v2/qf-sub-q-0.webp",
-        "ratio": 0.433
+        "src": "assets/products/qf-sub-q.webp",
+        "ratio": 0.432
       }
     ],
-    "background": "assets/v2/qf-sub-q-background.webp",
+    "background": "assets/posters/qf-sub-q.webp",
     "ingredients": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
     "concentration": "HA 24 mg/ml",
     "format": "1.1 ml",
@@ -822,7 +818,8 @@
       "en": "Cross-linked Sodium Hyaluronate · Lidocaine HCl · Phosphate Buffer",
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
-    }
+    },
+    "poster": "assets/posters/qf-sub-q.webp"
   },
   {
     "id": "lipo-360",
@@ -838,15 +835,11 @@
     "image": "assets/lipo-360.webp",
     "cutouts": [
       {
-        "src": "assets/v2/lipo-360-0.webp",
+        "src": "assets/products/lipo-360.webp",
         "ratio": 0.898
-      },
-      {
-        "src": "assets/v2/lipo-360-1.webp",
-        "ratio": 0.584
       }
     ],
-    "background": "assets/v2/lipo-360-background.webp",
+    "background": "assets/posters/lipo-360.webp",
     "ingredients": "PPC · Sodium Deoxycholate · Carnitine · Peptides",
     "concentration": "PPC 1% · Sodium Deoxycholate 0.5% · Carnitine 0.35%",
     "format": "10 ml",
@@ -864,7 +857,8 @@
       "en": "PPC · Sodium Deoxycholate · Carnitine · Peptides",
       "ru": "PPC · Sodium Deoxycholate · Carnitine · Пептиды",
       "tr": "PPC · Sodium Deoxycholate · Carnitine · Peptitler"
-    }
+    },
+    "poster": "assets/posters/lipo-360.webp"
   },
   {
     "id": "yeellow-drop",
@@ -880,15 +874,11 @@
     "image": "assets/yeellow-drop.webp",
     "cutouts": [
       {
-        "src": "assets/v2/yeellow-drop-0.webp",
-        "ratio": 2.055
-      },
-      {
-        "src": "assets/v2/yeellow-drop-1.webp",
-        "ratio": 0.583
+        "src": "assets/products/yeellow-drop.webp",
+        "ratio": 0.392
       }
     ],
-    "background": "assets/v2/yeellow-drop-background.webp",
+    "background": "assets/posters/yeellow-drop.webp",
     "ingredients": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptides",
     "concentration": "Bromelain 100 ppm",
     "format": "10 ml × 5",
@@ -906,7 +896,8 @@
       "en": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptides",
       "ru": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Пептиды",
       "tr": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptitler"
-    }
+    },
+    "poster": "assets/posters/yeellow-drop.webp"
   },
   {
     "id": "cellix-pn",
@@ -922,11 +913,11 @@
     "image": "assets/cellix-pn.webp",
     "cutouts": [
       {
-        "src": "assets/v2/cellix-pn-0.webp",
-        "ratio": 0.366
+        "src": "assets/products/cellix-pn.webp",
+        "ratio": 0.365
       }
     ],
-    "background": "assets/v2/cellix-pn-background.webp",
+    "background": "assets/posters/cellix-pn.webp",
     "ingredients": "Polynucleotides (PN) · Sodium Hyaluronate · NMN/NAD+ · Glutathione · Lidocaine",
     "concentration": "PN 2% · HA 1% · Lidocaine 0.3%",
     "format": "2.5 ml",
@@ -944,7 +935,8 @@
       "en": "Polynucleotides (PN) · Sodium Hyaluronate · NMN/NAD+ · Glutathione · Lidocaine",
       "ru": "Polynucleotides (PN) · Гиалуронат натрия · NMN/NAD+ · Глутатион · Lidocaine",
       "tr": "Polynucleotides (PN) · Sodyum Hyalüronat · NMN/NAD+ · Glutatyon · Lidocaine"
-    }
+    },
+    "poster": "assets/posters/cellix-pn.webp"
   },
   {
     "id": "liporase",
@@ -960,11 +952,11 @@
     "image": "assets/liporase.webp",
     "cutouts": [
       {
-        "src": "assets/v2/liporase-0.webp",
-        "ratio": 2.098
+        "src": "assets/products/liporase.webp",
+        "ratio": 1.941
       }
     ],
-    "background": "assets/v2/liporase-background.webp",
+    "background": "assets/posters/liporase.webp",
     "ingredients": "Hyaluronidase",
     "concentration": "1,500 IU",
     "format": "10 vials",
@@ -982,7 +974,8 @@
       "en": "Hyaluronidase",
       "ru": "Гиалуронидаза",
       "tr": "Hyalüronidaz"
-    }
+    },
+    "poster": "assets/posters/liporase.webp"
   },
   {
     "id": "hyalmas",
@@ -998,11 +991,11 @@
     "image": "assets/hyalmas.webp",
     "cutouts": [
       {
-        "src": "assets/v2/hyalmas-0.webp",
-        "ratio": 2.768
+        "src": "assets/products/hyalmas.webp",
+        "ratio": 2.991
       }
     ],
-    "background": "assets/v2/hyalmas-background.webp",
+    "background": "assets/posters/hyalmas.webp",
     "ingredients": "Hyaluronic Acid",
     "concentration": "",
     "format": "",
@@ -1020,7 +1013,8 @@
       "en": "Hyaluronic Acid",
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
-    }
+    },
+    "poster": "assets/posters/hyalmas.webp"
   },
   {
     "id": "exoroot",
@@ -1036,19 +1030,11 @@
     "image": "assets/exoroot.webp",
     "cutouts": [
       {
-        "src": "assets/v2/exoroot-0.webp",
-        "ratio": 1.65
-      },
-      {
-        "src": "assets/v2/exoroot-1.webp",
-        "ratio": 0.738
-      },
-      {
-        "src": "assets/v2/exoroot-2.webp",
-        "ratio": 0.733
+        "src": "assets/products/exoroot.webp",
+        "ratio": 1.651
       }
     ],
-    "background": "assets/v2/exoroot-background.webp",
+    "background": "assets/posters/exoroot.webp",
     "ingredients": "Sodium Hyaluronate · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptides",
     "concentration": "",
     "format": "100 mg + 5 ml",
@@ -1066,7 +1052,8 @@
       "en": "Sodium Hyaluronate · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptides",
       "ru": "Гиалуронат натрия · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Пептиды",
       "tr": "Sodyum Hyalüronat · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptitler"
-    }
+    },
+    "poster": "assets/posters/exoroot.webp"
   },
   {
     "id": "exo-nad",
@@ -1082,19 +1069,11 @@
     "image": "assets/exo-nad.webp",
     "cutouts": [
       {
-        "src": "assets/v2/exo-nad-0.webp",
-        "ratio": 1.716
-      },
-      {
-        "src": "assets/v2/exo-nad-1.webp",
-        "ratio": 0.778
-      },
-      {
-        "src": "assets/v2/exo-nad-2.webp",
-        "ratio": 0.778
+        "src": "assets/products/exo-nad.webp",
+        "ratio": 1.761
       }
     ],
-    "background": "assets/v2/exo-nad-background.webp",
+    "background": "assets/posters/exo-nad.webp",
     "ingredients": "NAD+ · Plant Extracellular Vesicles · Sodium Hyaluronate · Sodium DNA · Collagen · Peptides",
     "concentration": "",
     "format": "100 mg + 6 ml",
@@ -1112,7 +1091,8 @@
       "en": "NAD+ · Plant Extracellular Vesicles · Sodium Hyaluronate · Sodium DNA · Collagen · Peptides",
       "ru": "NAD+ · Plant Extracellular Vesicles · Гиалуронат натрия · Sodium DNA · Коллаген · Пептиды",
       "tr": "NAD+ · Plant Extracellular Vesicles · Sodyum Hyalüronat · Sodium DNA · Kolajen · Peptitler"
-    }
+    },
+    "poster": "assets/posters/exo-nad.webp"
   },
   {
     "id": "lxc",
@@ -1128,11 +1108,11 @@
     "image": "assets/lxc.webp",
     "cutouts": [
       {
-        "src": "assets/v2/lxc-0.webp",
-        "ratio": 2.212
+        "src": "assets/products/lxc.webp",
+        "ratio": 3.241
       }
     ],
-    "background": "assets/v2/lxc-background.webp",
+    "background": "assets/posters/lxc.webp",
     "ingredients": "Exosome Complex · PDRN · Collagen",
     "concentration": "",
     "format": "",
@@ -1150,7 +1130,8 @@
       "en": "Exosome Complex · PDRN · Collagen",
       "ru": "Exosome Complex · PDRN · Коллаген",
       "tr": "Exosome Complex · PDRN · Kolajen"
-    }
+    },
+    "poster": "assets/posters/lxc.webp"
   },
   {
     "id": "hyaron",
@@ -1166,11 +1147,11 @@
     "image": "assets/hyaron-new.png",
     "cutouts": [
       {
-        "src": "assets/v2/hyaron-0.webp",
-        "ratio": 1.742
+        "src": "assets/products/hyaron.webp",
+        "ratio": 1.811
       }
     ],
-    "background": "assets/v2/hyaron-background.webp",
+    "background": "assets/posters/hyaron.webp",
     "ingredients": "Sodium Hyaluronate",
     "concentration": "25 mg / 2.5 ml",
     "format": "2.5 ml × 10",
@@ -1188,6 +1169,7 @@
       "en": "Sodium Hyaluronate",
       "ru": "Гиалуронат натрия",
       "tr": "Sodyum Hyalüronat"
-    }
+    },
+    "poster": "assets/posters/hyaron.webp"
   }
 ]
