@@ -14,7 +14,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-ultra.webp",
-        "ratio": 2.435
+        "ratio": 3.024
       }
     ],
     "background": "assets/posters/fix-face-ultra.webp",
@@ -54,7 +54,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-ultra-plus.webp",
-        "ratio": 2.244
+        "ratio": 2.734
       }
     ],
     "background": "assets/posters/fix-face-ultra-plus.webp",
@@ -94,7 +94,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-grand.webp",
-        "ratio": 2.244
+        "ratio": 2.729
       }
     ],
     "background": "assets/posters/fix-face-grand.webp",
@@ -117,7 +117,7 @@
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
     },
     "poster": "assets/posters/fix-face-grand.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "plla",
@@ -174,7 +174,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-cpdrn.webp",
-        "ratio": 2.247
+        "ratio": 2.632
       }
     ],
     "background": "assets/posters/fix-face-cpdrn.webp",
@@ -214,7 +214,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-ha-18.webp",
-        "ratio": 2.226
+        "ratio": 2.713
       }
     ],
     "background": "assets/posters/fix-face-ha-18.webp",
@@ -254,7 +254,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-collagen.webp",
-        "ratio": 2.244
+        "ratio": 2.642
       }
     ],
     "background": "assets/posters/fix-face-collagen.webp",
@@ -294,7 +294,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-skin-booster.webp",
-        "ratio": 2.254
+        "ratio": 2.667
       }
     ],
     "background": "assets/posters/fix-face-skin-booster.webp",
@@ -374,7 +374,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-h.webp",
-        "ratio": 1.923
+        "ratio": 2.373
       }
     ],
     "background": "assets/posters/agasthi-h.webp",
@@ -454,7 +454,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-fine.webp",
-        "ratio": 1.928
+        "ratio": 2.047
       }
     ],
     "background": "assets/posters/agasthi-fine.webp",
@@ -494,7 +494,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-deep.webp",
-        "ratio": 1.931
+        "ratio": 2.337
       }
     ],
     "background": "assets/posters/agasthi-deep.webp",
@@ -534,7 +534,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-sub-q.webp",
-        "ratio": 2.439
+        "ratio": 2.74
       }
     ],
     "background": "assets/posters/agasthi-sub-q.webp",
@@ -574,7 +574,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-s.webp",
-        "ratio": 1.926
+        "ratio": 2.341
       }
     ],
     "background": "assets/posters/agasthi-s.webp",
@@ -734,7 +734,7 @@
     "cutouts": [
       {
         "src": "assets/products/qf-fi-ne.webp",
-        "ratio": 0.433
+        "ratio": 0.43
       }
     ],
     "background": "assets/posters/qf-fi-ne.webp",
@@ -775,7 +775,7 @@
     "cutouts": [
       {
         "src": "assets/products/qf-deep.webp",
-        "ratio": 0.434
+        "ratio": 0.364
       }
     ],
     "background": "assets/posters/qf-deep.webp",
@@ -799,7 +799,7 @@
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
     "poster": "assets/posters/qf-deep.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "qf-sub-q",
@@ -816,7 +816,7 @@
     "cutouts": [
       {
         "src": "assets/products/qf-sub-q.webp",
-        "ratio": 0.432
+        "ratio": 0.359
       }
     ],
     "background": "assets/posters/qf-sub-q.webp",
@@ -840,7 +840,7 @@
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
     "poster": "assets/posters/qf-sub-q.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "lipo-360",
@@ -857,7 +857,7 @@
     "cutouts": [
       {
         "src": "assets/products/lipo-360.webp",
-        "ratio": 0.898
+        "ratio": 1.035
       }
     ],
     "background": "assets/posters/lipo-360.webp",
@@ -897,7 +897,7 @@
     "cutouts": [
       {
         "src": "assets/products/yeellow-drop.webp",
-        "ratio": 0.392
+        "ratio": 2.115
       }
     ],
     "background": "assets/posters/yeellow-drop.webp",
@@ -1057,7 +1057,7 @@
     "cutouts": [
       {
         "src": "assets/products/exoroot.webp",
-        "ratio": 1.651
+        "ratio": 1.806
       }
     ],
     "background": "assets/posters/exoroot.webp",
@@ -1080,7 +1080,7 @@
       "tr": "Sodyum Hyalüronat · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptitler"
     },
     "poster": "assets/posters/exoroot.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "exo-nad",
@@ -1097,7 +1097,7 @@
     "cutouts": [
       {
         "src": "assets/products/exo-nad.webp",
-        "ratio": 1.761
+        "ratio": 2.941
       }
     ],
     "background": "assets/posters/exo-nad.webp",
@@ -1137,7 +1137,7 @@
     "cutouts": [
       {
         "src": "assets/products/lxc.webp",
-        "ratio": 3.241
+        "ratio": 2.45
       }
     ],
     "background": "assets/posters/lxc.webp",
