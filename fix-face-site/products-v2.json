@@ -37,7 +37,7 @@
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
     },
     "poster": "assets/posters/fix-face-ultra.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "fix-face-ultra-plus",
@@ -77,7 +77,7 @@
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
     },
     "poster": "assets/posters/fix-face-ultra-plus.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "fix-face-grand",
@@ -157,7 +157,7 @@
       "tr": "PLLA · Mannitol · Peptitler · Glutatyon · Sodium Carboxymethylcellulose"
     },
     "poster": "assets/posters/plla.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "fix-face-cpdrn",
@@ -197,7 +197,7 @@
       "tr": "PDRN · Hyalüronik Asit · Peptitler · Glutatyon"
     },
     "poster": "assets/posters/fix-face-cpdrn.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "fix-face-ha-18",
@@ -237,7 +237,7 @@
       "tr": "Hyalüronik Asit · Proline · Alanine · Glycine · Serine · Amino Acids"
     },
     "poster": "assets/posters/fix-face-ha-18.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "fix-face-collagen",
@@ -277,7 +277,7 @@
       "tr": "Hyalüronik Asit · Kolajen · Fosfat Tamponlu Serum Fizyolojik"
     },
     "poster": "assets/posters/fix-face-collagen.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "fix-face-skin-booster",
@@ -317,7 +317,7 @@
       "tr": "Hyalüronik Asit · Fosfat Tamponlu Serum Fizyolojik"
     },
     "poster": "assets/posters/fix-face-skin-booster.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "fix-face-pdo",
@@ -357,7 +357,7 @@
       "tr": "Polydioxanone (PDO)"
     },
     "poster": "assets/posters/fix-face-pdo.webp",
-    "posterTone": "dark"
+    "posterTone": "light"
   },
   {
     "id": "agasthi-h",

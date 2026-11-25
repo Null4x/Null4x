@@ -45,3 +45,4 @@ dialog{border-radius:14px}
 @media(prefers-reduced-motion:reduce){.product-open:hover .scene.poster .scene-bg{transform:none}}
 .product-open:has(.scene.poster.dark:not(.clean)) .card-number{color:#e8dcc6b3}
 .universe-photo:has(.scene.poster.dark) .universe-slide-controls{background:#f8f5efe6}
+.product-open:has(.scene.poster:not(.dark):not(.clean)) .card-number{color:#3b2f22;text-shadow:0 1px 8px #fff8}
