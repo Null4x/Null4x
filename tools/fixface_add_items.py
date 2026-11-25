@@ -45,7 +45,9 @@ def load_cut(path):
     if im.mode != 'RGBA':           # white-background jpg -> alpha
         rgb = np.asarray(im.convert('RGB')).astype(np.int16)
         import cv2
-        m = (np.abs(rgb - 255).max(-1) > 40).astype(np.uint8)
+        mx, mn = rgb.max(-1).astype(np.float32), rgb.min(-1).astype(np.float32)
+        sat = (mx - mn) / np.maximum(mx, 1)
+        m = ((sat > 0.18) | (mx < 90)).astype(np.uint8)          # coloured box, not the grey floor shadow
         m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((7, 7), np.uint8))
         n, lab, stats, _ = cv2.connectedComponentsWithStats(m)
         keep = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
@@ -122,17 +124,18 @@ def build(pid, src, src2):
     if pid in ('fix-face-cpdrn', 'fix-face-ha-18', 'fix-face-collagen', 'fix-face-skin-booster'):
         vial = {'fix-face-cpdrn': 'cpdrn-vial', 'fix-face-ha-18': 'ha18-vial',
                 'fix-face-collagen': 'collagen-vial', 'fix-face-skin-booster': 'skinbooster-vial'}[pid]
-        im = by_height(v(vial), ph * 0.90)
-        return [(im, x1 - im.width * 0.55, yb + FRONT, True)]
+        im = by_height(v(vial), ph * 0.78)
+        return [(im, x1 - im.width * 0.50, yb + FRONT, True)]
     if pid == 'plla':
         a = by_height(v('plla-vial-powder'), ph * 0.72); b = by_height(v('plla-vial-liquid'), ph * 0.72)
         return [(a, x1 - a.width * 0.30, yb + FRONT, True), (b, x1 + b.width * 0.78, yb + FRONT, True)]
     if pid == 'lipo-360':
-        im = by_height(v('lipo-vial'), ph * 0.70)
-        return [(im, x1 - im.width * 0.15, yb + FRONT, True)]
+        box = by_height(main, ph * 1.08); bx1 = W / 2 + box.width / 2
+        im = by_height(v('lipo-vial'), ph * 0.60)
+        return [(box, W / 2, yb, True), (im, bx1 - im.width * 0.05, yb + FRONT, True)]
     if pid == 'liporase':
         im = by_height(v('liporase-vial'), ph * 0.86)
-        return [(im, x1 - im.width * 0.35, yb + FRONT, True)]
+        return [(im, x1 + im.width * 0.12, yb + FRONT, True)]
     if pid == 'exoroot':
         h = ph * 0.58
         a = by_height(v('exoroot-vial-solution'), h); b = by_height(v('exoroot-vial-powder'), h)
@@ -144,18 +147,25 @@ def build(pid, src, src2):
     if pid == 'exo-nad':
         big = by_height(load_cut(f'{src2}/exonad-bigbox.jpg'), ph * 0.98)
         small = by_height(main, ph)
-        va = by_height(v('exonad-vial-1'), ph * 0.56); vb = by_height(v('exonad-vial-2'), ph * 0.56)
-        big = by_height(load_cut(f'{src2}/exonad-bigbox.jpg'), ph * 0.92)
-        back = 0.712 * H                                                         # back edge of the slab
-        return [(big, min(W - big.width / 2 - 40, x0 + pw * 0.5 + big.width * 0.10), back, True),  # big box behind
+        va = by_height(v('exonad-vial-1'), ph * 0.66); vb = by_height(v('exonad-vial-2'), ph * 0.66)
+        big = by_height(load_cut(f'{src2}/exonad-bigbox.jpg'), ph * 1.10)
+        back = 0.722 * H                                                         # just behind, on the slab
+        return [(big, W - big.width / 2 - 26, back, True),                       # big box behind, to the right
                 (small, x0 + pw / 2, yb, False),                               # existing box redrawn on top
-                (va, x1 - va.width * 0.10, yb + FRONT, True), (vb, x1 + vb.width * 0.85, yb + FRONT, True)]
+                (va, x1 - va.width * 0.25, yb + FRONT, True), (vb, x1 + vb.width * 0.72, yb + FRONT, True)]
     if pid == 'yeellow-drop':
+        vial = by_height(main, ph * 0.80)
+        box = by_width(v('yellowdrop-box'), ph * 1.12)
+        return [(box, W * 0.43, yb - 30, True), (vial, W * 0.43 + box.width * 0.40, yb + FRONT, True)]
+    if pid == 'yeellow-drop-old':
         box = by_width(v('yellowdrop-box'), ph * 1.0)                         # box as long as the vial is tall
         vial = by_height(main, ph)
         return [(box, box.width / 2 + 34, yb - 30, True),                     # box behind, kept inside the frame
                 (vial, x0 + pw / 2, yb, False)]                                # existing vial redrawn on top
-    if pid in ('agasthi-deep', 'agasthi-fine'):
+    if pid in ('agasthi-deep', 'agasthi-fine', 'agasthi-sub-q'):
+        # one physical box -> one on-screen size for all three
+        return [(main.resize((1100, 512), Image.LANCZOS), W / 2, yb, True)]
+    if pid in ('agasthi-deep-old',):
         # same box as Sub-Q: match Sub-Q's on-screen front length (drawn over the original, which it fully covers)
         _, spw, _, _, _ = main_geom(f'{src}/agasthi-sub-q.png')
         front_ratio_self, front_ratio_subq = 0.893, 0.914   # front-face share of each cut-out's width
@@ -165,13 +175,30 @@ def build(pid, src, src2):
     return []
 
 
+REBUILD = {'yeellow-drop', 'agasthi-deep', 'agasthi-fine', 'agasthi-sub-q'}
+
+
+def fresh_background(pid, src):
+    """Same marble set the approved poster used, rebuilt (needed where the product shrinks)."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import fixface_poster as fp
+    import glob as g
+    order = sorted(os.path.splitext(os.path.basename(f))[0] for f in g.glob(src + '/*.png'))
+    rng = np.random.default_rng(sum(map(ord, pid)) * 7919)
+    bg, _ = fp.build_set(fp.PRODUCT_SET[pid], rng)
+    if order.index(pid) % 2:
+        bg = bg[:, ::-1]
+    bg = bg + rng.normal(0, 2.4, (SH, SW, 1)).astype(np.float32)
+    return np.asarray(Image.fromarray(np.clip(bg, 0, 255).astype(np.uint8)).resize((W, H), Image.LANCZOS), np.float32).copy()
+
+
 if __name__ == '__main__':
     pin, src, src2, pout = sys.argv[1:5]
     os.makedirs(pout, exist_ok=True)
     ids = ['plla', 'fix-face-cpdrn', 'fix-face-ha-18', 'fix-face-collagen', 'fix-face-skin-booster', 'lipo-360',
-           'liporase', 'exoroot', 'exo-nad', 'lxc', 'yeellow-drop', 'agasthi-deep', 'agasthi-fine']
+           'liporase', 'exoroot', 'exo-nad', 'lxc', 'yeellow-drop', 'agasthi-deep', 'agasthi-fine', 'agasthi-sub-q']
     for pid in sys.argv[5:] or ids:
-        c = np.asarray(Image.open(f'{pin}/{pid}.webp').convert('RGB'), np.float32).copy()
+        c = fresh_background(pid, src) if pid in REBUILD else np.asarray(Image.open(f'{pin}/{pid}.webp').convert('RGB'), np.float32).copy()
         rng = np.random.default_rng(7)
         for im, cx, base, sh in build(pid, src, src2):
             draw(c, im, cx, base, pid in DARK, rng, sh)
