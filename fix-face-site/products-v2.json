@@ -117,7 +117,7 @@
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
     },
     "poster": "assets/posters/fix-face-grand.webp",
-    "posterTone": "light"
+    "posterTone": "dark"
   },
   {
     "id": "plla",
@@ -454,7 +454,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-fine.webp",
-        "ratio": 2.047
+        "ratio": 2.556
       }
     ],
     "background": "assets/posters/agasthi-fine.webp",
@@ -494,7 +494,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-deep.webp",
-        "ratio": 2.337
+        "ratio": 2.556
       }
     ],
     "background": "assets/posters/agasthi-deep.webp",
@@ -534,7 +534,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-sub-q.webp",
-        "ratio": 2.74
+        "ratio": 2.556
       }
     ],
     "background": "assets/posters/agasthi-sub-q.webp",
@@ -799,7 +799,7 @@
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
     "poster": "assets/posters/qf-deep.webp",
-    "posterTone": "light"
+    "posterTone": "dark"
   },
   {
     "id": "qf-sub-q",
@@ -840,7 +840,7 @@
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
     "poster": "assets/posters/qf-sub-q.webp",
-    "posterTone": "light"
+    "posterTone": "dark"
   },
   {
     "id": "lipo-360",
@@ -1080,7 +1080,7 @@
       "tr": "Sodyum Hyalüronat · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptitler"
     },
     "poster": "assets/posters/exoroot.webp",
-    "posterTone": "light"
+    "posterTone": "dark"
   },
   {
     "id": "exo-nad",
