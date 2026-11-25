@@ -43,3 +43,5 @@ dialog{border-radius:14px}
 .product-open:hover .scene.poster .scene-bg{transform:scale(1.035)}
 .scene.poster.clean .cutout{filter:drop-shadow(0 18px 22px #392b1726)}
 @media(prefers-reduced-motion:reduce){.product-open:hover .scene.poster .scene-bg{transform:none}}
+.product-open:has(.scene.poster.dark:not(.clean)) .card-number{color:#e8dcc6b3}
+.universe-photo:has(.scene.poster.dark) .universe-slide-controls{background:#f8f5efe6}

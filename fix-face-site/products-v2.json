@@ -36,7 +36,8 @@
       "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
     },
-    "poster": "assets/posters/fix-face-ultra.webp"
+    "poster": "assets/posters/fix-face-ultra.webp",
+    "posterTone": "dark"
   },
   {
     "id": "fix-face-ultra-plus",
@@ -75,7 +76,8 @@
       "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
     },
-    "poster": "assets/posters/fix-face-ultra-plus.webp"
+    "poster": "assets/posters/fix-face-ultra-plus.webp",
+    "posterTone": "dark"
   },
   {
     "id": "fix-face-grand",
@@ -114,7 +116,8 @@
       "ru": "Гиалуронат натрия · Физиологический раствор с фосфатным буфером",
       "tr": "Sodyum Hyalüronat · Fosfat Tamponlu Serum Fizyolojik"
     },
-    "poster": "assets/posters/fix-face-grand.webp"
+    "poster": "assets/posters/fix-face-grand.webp",
+    "posterTone": "dark"
   },
   {
     "id": "plla",
@@ -153,7 +156,8 @@
       "ru": "PLLA · Mannitol · Пептиды · Глутатион · Sodium Carboxymethylcellulose",
       "tr": "PLLA · Mannitol · Peptitler · Glutatyon · Sodium Carboxymethylcellulose"
     },
-    "poster": "assets/posters/plla.webp"
+    "poster": "assets/posters/plla.webp",
+    "posterTone": "dark"
   },
   {
     "id": "fix-face-cpdrn",
@@ -192,7 +196,8 @@
       "ru": "PDRN · Гиалуроновая кислота · Пептиды · Глутатион",
       "tr": "PDRN · Hyalüronik Asit · Peptitler · Glutatyon"
     },
-    "poster": "assets/posters/fix-face-cpdrn.webp"
+    "poster": "assets/posters/fix-face-cpdrn.webp",
+    "posterTone": "dark"
   },
   {
     "id": "fix-face-ha-18",
@@ -231,7 +236,8 @@
       "ru": "Гиалуроновая кислота · Proline · Alanine · Glycine · Serine · Amino Acids",
       "tr": "Hyalüronik Asit · Proline · Alanine · Glycine · Serine · Amino Acids"
     },
-    "poster": "assets/posters/fix-face-ha-18.webp"
+    "poster": "assets/posters/fix-face-ha-18.webp",
+    "posterTone": "dark"
   },
   {
     "id": "fix-face-collagen",
@@ -270,7 +276,8 @@
       "ru": "Гиалуроновая кислота · Коллаген · Физиологический раствор с фосфатным буфером",
       "tr": "Hyalüronik Asit · Kolajen · Fosfat Tamponlu Serum Fizyolojik"
     },
-    "poster": "assets/posters/fix-face-collagen.webp"
+    "poster": "assets/posters/fix-face-collagen.webp",
+    "posterTone": "dark"
   },
   {
     "id": "fix-face-skin-booster",
@@ -309,7 +316,8 @@
       "ru": "Гиалуроновая кислота · Физиологический раствор с фосфатным буфером",
       "tr": "Hyalüronik Asit · Fosfat Tamponlu Serum Fizyolojik"
     },
-    "poster": "assets/posters/fix-face-skin-booster.webp"
+    "poster": "assets/posters/fix-face-skin-booster.webp",
+    "posterTone": "dark"
   },
   {
     "id": "fix-face-pdo",
@@ -348,7 +356,8 @@
       "ru": "Polydioxanone (PDO)",
       "tr": "Polydioxanone (PDO)"
     },
-    "poster": "assets/posters/fix-face-pdo.webp"
+    "poster": "assets/posters/fix-face-pdo.webp",
+    "posterTone": "dark"
   },
   {
     "id": "agasthi-h",
@@ -387,7 +396,8 @@
       "ru": "Стабилизированная гиалуроновая кислота · Лидокаин HCl",
       "tr": "Stabilize Hyalüronik Asit · Lidokain HCl"
     },
-    "poster": "assets/posters/agasthi-h.webp"
+    "poster": "assets/posters/agasthi-h.webp",
+    "posterTone": "light"
   },
   {
     "id": "agasthi-body",
@@ -426,7 +436,8 @@
       "ru": "Стабилизированная гиалуроновая кислота",
       "tr": "Stabilize Hyalüronik Asit"
     },
-    "poster": "assets/posters/agasthi-body.webp"
+    "poster": "assets/posters/agasthi-body.webp",
+    "posterTone": "light"
   },
   {
     "id": "agasthi-fine",
@@ -465,7 +476,8 @@
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
-    "poster": "assets/posters/agasthi-fine.webp"
+    "poster": "assets/posters/agasthi-fine.webp",
+    "posterTone": "light"
   },
   {
     "id": "agasthi-deep",
@@ -504,7 +516,8 @@
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
-    "poster": "assets/posters/agasthi-deep.webp"
+    "poster": "assets/posters/agasthi-deep.webp",
+    "posterTone": "light"
   },
   {
     "id": "agasthi-sub-q",
@@ -543,7 +556,8 @@
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
-    "poster": "assets/posters/agasthi-sub-q.webp"
+    "poster": "assets/posters/agasthi-sub-q.webp",
+    "posterTone": "light"
   },
   {
     "id": "agasthi-s",
@@ -582,7 +596,8 @@
       "ru": "Стабилизированная гиалуроновая кислота · Лидокаин HCl",
       "tr": "Stabilize Hyalüronik Asit · Lidokain HCl"
     },
-    "poster": "assets/posters/agasthi-s.webp"
+    "poster": "assets/posters/agasthi-s.webp",
+    "posterTone": "light"
   },
   {
     "id": "audrey-h",
@@ -621,7 +636,8 @@
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
     },
-    "poster": "assets/posters/audrey-h.webp"
+    "poster": "assets/posters/audrey-h.webp",
+    "posterTone": "light"
   },
   {
     "id": "audrey-m",
@@ -660,7 +676,8 @@
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
     },
-    "poster": "assets/posters/audrey-m.webp"
+    "poster": "assets/posters/audrey-m.webp",
+    "posterTone": "light"
   },
   {
     "id": "audrey-m-2ml",
@@ -699,7 +716,8 @@
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
     },
-    "poster": "assets/posters/audrey-m-2ml.webp"
+    "poster": "assets/posters/audrey-m-2ml.webp",
+    "posterTone": "light"
   },
   {
     "id": "qf-fi-ne",
@@ -739,7 +757,8 @@
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
-    "poster": "assets/posters/qf-fi-ne.webp"
+    "poster": "assets/posters/qf-fi-ne.webp",
+    "posterTone": "light"
   },
   {
     "id": "qf-deep",
@@ -779,7 +798,8 @@
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
-    "poster": "assets/posters/qf-deep.webp"
+    "poster": "assets/posters/qf-deep.webp",
+    "posterTone": "dark"
   },
   {
     "id": "qf-sub-q",
@@ -819,7 +839,8 @@
       "ru": "Сшитый гиалуронат натрия · Лидокаин HCl · Phosphate Buffer",
       "tr": "Çapraz Bağlı Sodyum Hyalüronat · Lidokain HCl · Phosphate Buffer"
     },
-    "poster": "assets/posters/qf-sub-q.webp"
+    "poster": "assets/posters/qf-sub-q.webp",
+    "posterTone": "dark"
   },
   {
     "id": "lipo-360",
@@ -858,7 +879,8 @@
       "ru": "PPC · Sodium Deoxycholate · Carnitine · Пептиды",
       "tr": "PPC · Sodium Deoxycholate · Carnitine · Peptitler"
     },
-    "poster": "assets/posters/lipo-360.webp"
+    "poster": "assets/posters/lipo-360.webp",
+    "posterTone": "light"
   },
   {
     "id": "yeellow-drop",
@@ -897,7 +919,8 @@
       "ru": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Пептиды",
       "tr": "Bromelain · Lecithin · Riboflavin · Plant Extracts · Peptitler"
     },
-    "poster": "assets/posters/yeellow-drop.webp"
+    "poster": "assets/posters/yeellow-drop.webp",
+    "posterTone": "light"
   },
   {
     "id": "cellix-pn",
@@ -936,7 +959,8 @@
       "ru": "Polynucleotides (PN) · Гиалуронат натрия · NMN/NAD+ · Глутатион · Lidocaine",
       "tr": "Polynucleotides (PN) · Sodyum Hyalüronat · NMN/NAD+ · Glutatyon · Lidocaine"
     },
-    "poster": "assets/posters/cellix-pn.webp"
+    "poster": "assets/posters/cellix-pn.webp",
+    "posterTone": "light"
   },
   {
     "id": "liporase",
@@ -975,7 +999,8 @@
       "ru": "Гиалуронидаза",
       "tr": "Hyalüronidaz"
     },
-    "poster": "assets/posters/liporase.webp"
+    "poster": "assets/posters/liporase.webp",
+    "posterTone": "light"
   },
   {
     "id": "hyalmas",
@@ -1014,7 +1039,8 @@
       "ru": "Гиалуроновая кислота",
       "tr": "Hyalüronik Asit"
     },
-    "poster": "assets/posters/hyalmas.webp"
+    "poster": "assets/posters/hyalmas.webp",
+    "posterTone": "light"
   },
   {
     "id": "exoroot",
@@ -1053,7 +1079,8 @@
       "ru": "Гиалуронат натрия · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Пептиды",
       "tr": "Sodyum Hyalüronat · Centella Vesicles · Panthenol · Caffeine · Zinc PCA · Biotin · Peptitler"
     },
-    "poster": "assets/posters/exoroot.webp"
+    "poster": "assets/posters/exoroot.webp",
+    "posterTone": "dark"
   },
   {
     "id": "exo-nad",
@@ -1092,7 +1119,8 @@
       "ru": "NAD+ · Plant Extracellular Vesicles · Гиалуронат натрия · Sodium DNA · Коллаген · Пептиды",
       "tr": "NAD+ · Plant Extracellular Vesicles · Sodyum Hyalüronat · Sodium DNA · Kolajen · Peptitler"
     },
-    "poster": "assets/posters/exo-nad.webp"
+    "poster": "assets/posters/exo-nad.webp",
+    "posterTone": "light"
   },
   {
     "id": "lxc",
@@ -1131,7 +1159,8 @@
       "ru": "Exosome Complex · PDRN · Коллаген",
       "tr": "Exosome Complex · PDRN · Kolajen"
     },
-    "poster": "assets/posters/lxc.webp"
+    "poster": "assets/posters/lxc.webp",
+    "posterTone": "light"
   },
   {
     "id": "hyaron",
@@ -1170,6 +1199,7 @@
       "ru": "Гиалуронат натрия",
       "tr": "Sodyum Hyalüronat"
     },
-    "poster": "assets/posters/hyaron.webp"
+    "poster": "assets/posters/hyaron.webp",
+    "posterTone": "light"
   }
 ]

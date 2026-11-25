@@ -14,9 +14,46 @@ def lerp(a, b, t):
 def hexc(h):
     h = h.lstrip('#'); return np.array([int(h[i:i+2], 16) for i in (0, 2, 4)], dtype=np.float32)
 
-WALL_TOP, WALL_LOW = hexc('#e9dfcf'), hexc('#dccdb6')
-NICHE_TOP, NICHE_LOW = hexc('#f3ebdf'), hexc('#e6d9c4')
-FLOOR_FAR, FLOOR_NEAR = hexc('#ddcdb4'), hexc('#cbb699')
+TONES = {
+    # dark sets for black / deep packaging, light tinted sets for the rest
+    'fix-face-ultra': ('dark', '#3a3128'), 'fix-face-ultra-plus': ('dark', '#3a3128'),
+    'fix-face-grand': ('dark', '#3a3128'), 'plla': ('dark', '#3b3226'),
+    'fix-face-collagen': ('dark', '#3e2a30'), 'fix-face-cpdrn': ('dark', '#3f2f22'),
+    'fix-face-ha-18': ('dark', '#25313f'), 'fix-face-skin-booster': ('dark', '#3b3324'),
+    'fix-face-pdo': ('dark', '#34353b'), 'qf-deep': ('dark', '#1f2a45'),
+    'qf-sub-q': ('dark', '#2f2a24'), 'exoroot': ('dark', '#2e3136'),
+    'agasthi-h': ('light', '#8f86c9'), 'agasthi-s': ('light', '#c47aa8'),
+    'agasthi-fine': ('light', '#7f9fd8'), 'agasthi-deep': ('light', '#7282d0'),
+    'agasthi-sub-q': ('light', '#7aa3dc'), 'agasthi-body': ('light', '#b9837f'),
+    'audrey-h': ('light', '#8a7566'), 'audrey-m': ('light', '#7b92e0'),
+    'audrey-m-2ml': ('light', '#7b92e0'), 'qf-fi-ne': ('light', '#e0c58a'),
+    'lipo-360': ('light', '#d9824a'), 'yeellow-drop': ('light', '#e6c84a'),
+    'cellix-pn': ('light', '#9aa0a8'), 'liporase': ('light', '#a183c4'),
+    'hyalmas': ('light', '#a9c46a'), 'exo-nad': ('light', '#5f86d6'),
+    'lxc': ('light', '#5b7fe0'), 'hyaron': ('light', '#b56a92'),
+}
+
+def mix(a, b, t):
+    return hexc(a) * (1 - t) + hexc(b) * t
+
+def set_palette(name):
+    global WALL_TOP, WALL_LOW, NICHE_TOP, NICHE_LOW, FLOOR_FAR, FLOOR_NEAR, GLOW, LINE, SHADOW, MODE
+    MODE, tone = TONES.get(name, ('light', '#d8c3a0'))
+    T = hexc(tone)
+    if MODE == 'light':
+        WALL_TOP, WALL_LOW = mix('#f2ebe0', tone, .34), mix('#e2d5c2', tone, .44)
+        NICHE_TOP, NICHE_LOW = mix('#fcf8f2', tone, .15), mix('#efe5d6', tone, .30)
+        FLOOR_FAR, FLOOR_NEAR = mix('#e0d2bc', tone, .42), mix('#cdb99d', tone, .52)
+        GLOW, LINE = np.array([26, 20, 12], np.float32), np.array([176, 136, 72], np.float32)
+        SHADOW = T * 0.25
+    else:
+        WALL_TOP, WALL_LOW = T * 1.05, T * 0.72
+        NICHE_TOP, NICHE_LOW = T * 1.9 + 18, T * 1.15
+        FLOOR_FAR, FLOOR_NEAR = T * 1.25, T * 0.78
+        GLOW, LINE = np.array([70, 54, 30], np.float32), np.array([212, 170, 98], np.float32)
+        SHADOW = np.array([6, 5, 4], np.float32)
+
+set_palette('')
 
 def background():
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
@@ -48,7 +85,7 @@ def background():
     dist = np.where(yy >= cy, np.abs(np.abs(dx) - r), np.abs(np.sqrt(dx ** 2 + (yy - cy) ** 2) - r))
     line = np.exp(-(dist / 1.6) ** 2) * (ny < HORIZON) * ((yy >= cy) | (yy <= cy))
     sheen = 0.55 + 0.45 * np.exp(-((nx - 0.62) / 0.22) ** 2 - ((ny - 0.25) / 0.25) ** 2)
-    gold = np.array([176, 136, 72], np.float32)
+    gold = LINE
     lw = (line * 0.85 * sheen)[..., None]
     img = img * (1 - lw) + gold * lw
     # floor
@@ -63,9 +100,9 @@ def background():
     img -= band * 14
     # key light: warm pool behind and around product
     d = ((nx - 0.56) / 0.42) ** 2 + ((ny - 0.42) / 0.36) ** 2
-    img += np.exp(-d)[..., None] * np.array([26, 20, 12], np.float32)
+    img += np.exp(-d)[..., None] * GLOW
     fl = ((nx - 0.5) / 0.38) ** 2 + ((ny - BASE) / 0.07) ** 2
-    img += np.exp(-fl)[..., None] * np.array([22, 18, 12], np.float32) * fm
+    img += np.exp(-fl)[..., None] * GLOW * 0.85 * fm
     # diagonal window light streak on wall (very soft)
     s = (nx * 0.9 + ny * 0.55)
     streak = np.exp(-((s - 0.98) / 0.05) ** 2) * (ny < HORIZON)
@@ -102,6 +139,7 @@ def fit(prod):
     return prod.resize((max(1, round(w * s)), max(1, round(h * s))), Image.LANCZOS)
 
 def render(src, out):
+    set_palette(os.path.splitext(os.path.basename(src))[0])
     bg = background()
     prod = fit(Image.open(src).convert('RGBA'))
     pw, ph = prod.size
@@ -120,7 +158,7 @@ def render(src, out):
     y0 = yb - (bottom.max() + 1)
 
     c = np.asarray(canvas.convert('RGB'), np.float32)
-    dark = np.array([60, 46, 32], np.float32)
+    dark = SHADOW
     # ambient occlusion: wide soft shadow spanning the footprint
     occ = np.zeros((H, W), np.float32)
     span = float(cols.max() - cols.min())
