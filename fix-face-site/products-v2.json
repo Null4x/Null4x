@@ -14,7 +14,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-ultra.webp",
-        "ratio": 3.024
+        "ratio": 2.435
       }
     ],
     "background": "assets/posters/fix-face-ultra.webp",
@@ -54,7 +54,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-ultra-plus.webp",
-        "ratio": 2.734
+        "ratio": 2.244
       }
     ],
     "background": "assets/posters/fix-face-ultra-plus.webp",
@@ -94,7 +94,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-grand.webp",
-        "ratio": 2.729
+        "ratio": 2.244
       }
     ],
     "background": "assets/posters/fix-face-grand.webp",
@@ -174,7 +174,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-cpdrn.webp",
-        "ratio": 2.632
+        "ratio": 2.247
       }
     ],
     "background": "assets/posters/fix-face-cpdrn.webp",
@@ -214,7 +214,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-ha-18.webp",
-        "ratio": 2.713
+        "ratio": 2.226
       }
     ],
     "background": "assets/posters/fix-face-ha-18.webp",
@@ -254,7 +254,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-collagen.webp",
-        "ratio": 2.642
+        "ratio": 2.244
       }
     ],
     "background": "assets/posters/fix-face-collagen.webp",
@@ -294,7 +294,7 @@
     "cutouts": [
       {
         "src": "assets/products/fix-face-skin-booster.webp",
-        "ratio": 2.667
+        "ratio": 2.254
       }
     ],
     "background": "assets/posters/fix-face-skin-booster.webp",
@@ -374,7 +374,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-h.webp",
-        "ratio": 2.373
+        "ratio": 1.923
       }
     ],
     "background": "assets/posters/agasthi-h.webp",
@@ -454,7 +454,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-fine.webp",
-        "ratio": 2.556
+        "ratio": 1.928
       }
     ],
     "background": "assets/posters/agasthi-fine.webp",
@@ -494,7 +494,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-deep.webp",
-        "ratio": 2.556
+        "ratio": 1.931
       }
     ],
     "background": "assets/posters/agasthi-deep.webp",
@@ -534,7 +534,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-sub-q.webp",
-        "ratio": 2.556
+        "ratio": 2.439
       }
     ],
     "background": "assets/posters/agasthi-sub-q.webp",
@@ -574,7 +574,7 @@
     "cutouts": [
       {
         "src": "assets/products/agasthi-s.webp",
-        "ratio": 2.341
+        "ratio": 1.926
       }
     ],
     "background": "assets/posters/agasthi-s.webp",
@@ -734,7 +734,7 @@
     "cutouts": [
       {
         "src": "assets/products/qf-fi-ne.webp",
-        "ratio": 0.43
+        "ratio": 0.433
       }
     ],
     "background": "assets/posters/qf-fi-ne.webp",
@@ -775,7 +775,7 @@
     "cutouts": [
       {
         "src": "assets/products/qf-deep.webp",
-        "ratio": 0.364
+        "ratio": 0.434
       }
     ],
     "background": "assets/posters/qf-deep.webp",
@@ -816,7 +816,7 @@
     "cutouts": [
       {
         "src": "assets/products/qf-sub-q.webp",
-        "ratio": 0.359
+        "ratio": 0.432
       }
     ],
     "background": "assets/posters/qf-sub-q.webp",
@@ -857,7 +857,7 @@
     "cutouts": [
       {
         "src": "assets/products/lipo-360.webp",
-        "ratio": 1.035
+        "ratio": 0.898
       }
     ],
     "background": "assets/posters/lipo-360.webp",
@@ -897,7 +897,7 @@
     "cutouts": [
       {
         "src": "assets/products/yeellow-drop.webp",
-        "ratio": 2.115
+        "ratio": 0.392
       }
     ],
     "background": "assets/posters/yeellow-drop.webp",
@@ -1057,7 +1057,7 @@
     "cutouts": [
       {
         "src": "assets/products/exoroot.webp",
-        "ratio": 1.806
+        "ratio": 1.651
       }
     ],
     "background": "assets/posters/exoroot.webp",
@@ -1097,7 +1097,7 @@
     "cutouts": [
       {
         "src": "assets/products/exo-nad.webp",
-        "ratio": 2.941
+        "ratio": 1.761
       }
     ],
     "background": "assets/posters/exo-nad.webp",
@@ -1137,7 +1137,7 @@
     "cutouts": [
       {
         "src": "assets/products/lxc.webp",
-        "ratio": 2.45
+        "ratio": 3.241
       }
     ],
     "background": "assets/posters/lxc.webp",
