@@ -145,18 +145,21 @@ def build(pid, src, src2):
         a = by_height(v('lxc-vials'), h)
         return [(a, x1 - a.width * 0.42, yb + FRONT, True)]
     if pid == 'exo-nad':
-        big = by_height(load_cut(f'{src2}/exonad-bigbox.jpg'), ph * 0.98)
-        small = by_height(main, ph)
-        va = by_height(v('exonad-vial-1'), ph * 0.66); vb = by_height(v('exonad-vial-2'), ph * 0.66)
-        big = by_height(load_cut(f'{src2}/exonad-bigbox.jpg'), ph * 1.10)
-        back = 0.722 * H                                                         # just behind, on the slab
-        return [(big, W - big.width / 2 - 26, back, True),                       # big box behind, to the right
-                (small, x0 + pw / 2, yb, False),                               # existing box redrawn on top
-                (va, x1 - va.width * 0.25, yb + FRONT, True), (vb, x1 + vb.width * 0.72, yb + FRONT, True)]
+        # same structure and on-screen sizes as the LXC poster (lxc.png: 1280x395 group, centred)
+        _, lw, lh, lx0, _ = main_geom(f'{src}/lxc.png'); lx1 = lx0 + lw
+        big = by_height(load_cut(f'{src2}/exonad-bigbox.jpg'), lh * 0.99)
+        small = by_height(main, lh * 0.65)
+        vh = lh * 0.60                                   # same vial height as LXC, below the small box
+        va = by_height(v('exonad-vial-1'), vh); vb = by_height(v('exonad-vial-2'), vh)
+        return [(big, lx1 - big.width / 2, yb, True),                     # big box behind, right
+                (small, lx0 + small.width / 2, yb + 6, True),             # small box in front, left
+                (va, lx1 - va.width * 1.45, yb + FRONT, True),            # vials front, right
+                (vb, lx1 - vb.width * 0.45, yb + FRONT, True)]
     if pid == 'yeellow-drop':
-        vial = by_height(main, ph * 0.80)
-        box = by_width(v('yellowdrop-box'), ph * 1.12)
-        return [(box, W * 0.43, yb - 30, True), (vial, W * 0.43 + box.width * 0.40, yb + FRONT, True)]
+        vial = by_height(main, ph * 0.55)                # clearly smaller vial
+        box = by_width(v('yellowdrop-box'), ph * 0.98)
+        bcx = W * 0.45
+        return [(box, bcx, yb - 30, True), (vial, bcx + box.width * 0.47, yb + FRONT, True)]
     if pid == 'yeellow-drop-old':
         box = by_width(v('yellowdrop-box'), ph * 1.0)                         # box as long as the vial is tall
         vial = by_height(main, ph)
@@ -175,7 +178,7 @@ def build(pid, src, src2):
     return []
 
 
-REBUILD = {'yeellow-drop', 'agasthi-deep', 'agasthi-fine', 'agasthi-sub-q'}
+REBUILD = {'yeellow-drop', 'exo-nad', 'agasthi-deep', 'agasthi-fine', 'agasthi-sub-q'}
 
 
 def fresh_background(pid, src):
