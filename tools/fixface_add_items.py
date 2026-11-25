@@ -47,7 +47,16 @@ def load_cut(path):
         import cv2
         mx, mn = rgb.max(-1).astype(np.float32), rgb.min(-1).astype(np.float32)
         sat = (mx - mn) / np.maximum(mx, 1)
-        m = ((sat > 0.18) | (mx < 90)).astype(np.uint8)          # coloured box, not the grey floor shadow
+        core = ((sat > 0.18) | (mx < 90)).astype(np.uint8)          # coloured box faces
+        light = (np.abs(rgb - 255).max(-1) > 12)                    # anything not white (incl. pale top face)
+        ys, xs = np.nonzero(core)
+        x_lo, x_hi = np.percentile(xs, 0.2), np.percentile(xs, 99.8)
+        colbot = np.full(core.shape[1], -1)
+        cols = np.where(core.any(0))[0]
+        colbot[cols] = core.shape[0] - 1 - np.argmax(core[::-1, cols], axis=0)
+        yy = np.arange(core.shape[0])[:, None]
+        inside = (np.arange(core.shape[1])[None, :] >= x_lo) & (np.arange(core.shape[1])[None, :] <= x_hi) & (yy <= colbot[None, :])
+        m = ((light & inside) | core.astype(bool)).astype(np.uint8)  # keep the top face, drop the floor shadow
         m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((7, 7), np.uint8))
         n, lab, stats, _ = cv2.connectedComponentsWithStats(m)
         keep = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
