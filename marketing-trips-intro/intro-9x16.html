@@ -73,7 +73,7 @@ function show(p,from,to){const L=+p.dataset.L;from=clamp(from,0,L);to=clamp(to,0
 function headPt(s){ if(s<=L1) return route.getPointAtLength(Math.max(0,s)); return main.getPointAtLength(Math.min(L2,s-L1)); }
 
 function render(t){
-  const slide=eExpoInOut(seg(t,2.95,3.75));
+  const slide=eInOut(seg(t,2.85,4.05));
   const off=ICOFF*(1-slide);
   $('iconPos').setAttribute('transform',`translate(${off} 0)`);
 
@@ -89,43 +89,41 @@ function render(t){
   const sf=dist(t-LAG);
   show(mMain,0,sf-L1); show(mBlue,0,sf-L1-CROSS);
   mMain.style.strokeWidth=mBlue.style.strokeWidth=MW*eOut(clamp((sf-L1)/1400));
-  $('solid').setAttribute('opacity',eInOut(seg(t,T1+0.12,T1+0.32)));
-  main.style.opacity=blue.style.opacity=1-seg(t,T1+0.12,T1+0.32);
+  $('solid').setAttribute('opacity',eInOut(seg(t,T1+0.05,T1+0.45)));
+  main.style.opacity=blue.style.opacity=1-eInOut(seg(t,T1+0.05,T1+0.45));
 
   // ring: fast drop, one strong bounce
-  const dp=seg(t,2.25,2.62), dy=-4200*(1-eIn(dp));
-  const bq=seg(t,2.62,3.0), bounce=-Math.sin(Math.PI*bq)*220*(1-bq);
-  const sq=Math.sin(Math.PI*seg(t,2.62,2.74))*.05;
+  const dp=seg(t,2.15,2.7), dy=-2600*(1-dp*dp);
+  const bq=seg(t,2.7,3.25), bounce=-Math.sin(Math.PI*bq)*110*(1-bq);
+  const sq=0;
   $('ringG').setAttribute('transform',t<2.25?'translate(0 -20000)':`translate(${RCX} ${RCY+dy+bounce+380}) scale(${1+sq} ${1-sq}) translate(${-RCX} ${-RCY-380})`);
-  const rp=seg(t,2.62,3.3), re=eOut(rp);
+  const rp=seg(t,2.7,3.6), re=eOut(rp);
   $('ripple').setAttribute('r',rp>0&&rp<1?380+800*re:0);
   $('ripple').setAttribute('stroke-width',40*(1-re)+2);$('ripple').setAttribute('opacity',(1-rp)*0.55);
 
   // text slams out from behind the icon
   $('txtCR').setAttribute('x',2780+off+90);
-  const mv=(arr,start,dur,d0)=>arr.forEach(el=>{const p=eExpo(seg(t,start,start+dur));el.setAttribute('transform',`translate(${-d0*(1-p)} 0)`);});
-  mv(l1,3.12,0.85,3800); mv(l2,3.24,0.85,2800);
+  const mv=(arr,start,dur,d0)=>arr.forEach(el=>{const p=1-Math.pow(1-seg(t,start,start+dur),4);el.setAttribute('transform',`translate(${-d0*(1-p)} 0)`);});
+  mv(l1,3.05,1.35,3800); mv(l2,3.2,1.35,2800);
 
-  // camera: follow the tip with roll toward its heading, punch out, settle
-  let ax=0,ay=0,n=8;for(let i=0;i<n;i++){const p=headPt(dist(t-0.05*i));ax+=p.x;ay+=p.y;}
-  let fx=ax/n+off, fy=ay/n;
-  const p1=headPt(dist(t-0.02)), p0=headPt(dist(t-0.22));
-  let roll=clamp(-Math.atan2(p1.x-p0.x,-(p1.y-p0.y))*180/Math.PI*0.28,-9,9);
-  const intro=eInOut(seg(t,0,0.6));
+  // camera: heavily smoothed follow, no roll, soft eased moves only
+  let ax=0,ay=0,wsum=0;
+  for(let i=0;i<24;i++){const wgt=Math.exp(-Math.pow(i/10,2));const p=headPt(dist(t-0.045*i));ax+=p.x*wgt;ay+=p.y*wgt;wsum+=wgt;}
+  let fx=ax/wsum+off, fy=ay/wsum;
   const startP=route.getPointAtLength(L1*0.12);
+  const intro=eSine(seg(t,0,0.9));
   fx=lerp(startP.x+off,fx,intro); fy=lerp(startP.y-300,fy,intro);
-  const toIcon=eExpoInOut(seg(t,1.75,2.45));
-  fx=lerp(fx,ICX+ICOFF,toIcon); fy=lerp(fy,ICY+150,toIcon); roll=lerp(roll,0,toIcon);
-  const toLogo=eExpoInOut(seg(t,2.95,3.8));
+  const toIcon=eInOut(seg(t,1.45,2.65));
+  fx=lerp(fx,ICX+ICOFF,toIcon); fy=lerp(fy,ICY+150,toIcon);
+  const toLogo=eInOut(seg(t,2.85,4.05));
   fx=lerp(fx,CX,toLogo); fy=lerp(fy,CY,toLogo);
-  let zoom=lerp(2.3,1.55,eExpoInOut(seg(t,1.75,2.45)));
-  zoom*=1+0.06*Math.sin(Math.PI*seg(t,2.45,2.9))*(t<2.9); // tiny overshoot after the punch
-  zoom=lerp(zoom,1,toLogo)*(1+0.03*eSine(seg(t,3.8,DUR)));
-  $('world').setAttribute('transform',`translate(${W/2} ${SCY}) rotate(${roll}) scale(${SC*zoom}) translate(${-fx} ${-fy})`);
-  $('map').setAttribute('opacity',0.9*(1-eInOut(seg(t,2.2,3.4))));
+  let zoom=lerp(2.2,1.55,eInOut(seg(t,1.45,2.65)));
+  zoom=lerp(zoom,1,toLogo)*(1+0.02*eSine(seg(t,4.05,DUR)));
+  $('world').setAttribute('transform',`translate(${W/2} ${SCY}) scale(${SC*zoom}) translate(${-fx} ${-fy})`);
+  $('map').setAttribute('opacity',0.9*(1-eInOut(seg(t,2.0,3.8))));
 
   // signature
-  const sp=seg(t,3.9,5.2), se=eOut(sp);
+  const sp=seg(t,4.0,5.5), se=eOut(sp);
   $('blurN').setAttribute('stdDeviation',(1-se)*20);
   const sig=$('sig'); sig.style.opacity=clamp(sp*1.7);
   sig.setAttribute('transform',`translate(0 ${30*(1-se)})`);
