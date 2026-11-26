@@ -1,8 +1,16 @@
 """Fix face brand QR -> fixface_qr.svg (QR only) + qr_card.html (branded card).
 Colours, gradient and emblem are taken from fix_face_logo.svg."""
-import re, segno
+import re, sys, segno
 
-URL = "https://www.instagram.com/fix.face.aesthetic/"
+# usage: python3 make_qr.py [instagram|site]
+PRESETS = {
+    "instagram": dict(url="https://www.instagram.com/fix.face.aesthetic/", out="fixface_qr",
+                      handle="@fix.face.aesthetic", hsize=60, cta=("SKAN ET", "BİZİ İZLƏ")),
+    "site": dict(url="https://fix-face.hamidov-design.workers.dev/", out="fixface_site_qr",
+                 handle="fix-face.hamidov-design.workers.dev", hsize=46, cta=("SKAN ET", "SAYTA KEÇ")),
+}
+P = PRESETS[sys.argv[1] if len(sys.argv) > 1 else "instagram"]
+URL = P["url"]
 qr = segno.make(URL, error="h", boost_error=False)
 M = [list(r) for r in qr.matrix]
 N = len(M)
@@ -55,7 +63,7 @@ def qr_svg(size_px, uid="q", bg=PAPER):
     o.append("</svg>")
     return "\n".join(o)
 
-open("fixface_qr.svg", "w", encoding="utf-8").write(qr_svg(1200))
+open(P["out"] + ".svg", "w", encoding="utf-8").write(qr_svg(1200))
 
 emblem_big = (f'<svg viewBox="{EMB_VB}" width="330" height="330"><defs>{gold_grad("eg")}</defs>'
               f'{emblem_paths("eg")}</svg>')
@@ -83,7 +91,7 @@ html,body{{width:1600px;height:2000px}}
   background:linear-gradient(135deg,#CB984D,#EDD089 19%,#F4E8D9 30%,#DAB681 40%,#C08329 62%,#D5A055 79%,#EABE81);
   box-shadow:0 30px 80px rgba(110,72,20,.18),0 6px 18px rgba(110,72,20,.12)}}
 .panel svg{{display:block;width:800px;height:800px;border-radius:31px}}
-.handle{{top:1580px;font-weight:600;font-size:60px;letter-spacing:.01em}}
+.handle{{top:1580px;font-weight:600;font-size:{P["hsize"]}px;letter-spacing:.01em}}
 .cta{{top:1688px;display:flex;justify-content:center;align-items:center;gap:22px;font-weight:500;font-size:32px;letter-spacing:.3em;color:{GOLD}}}
 .cta b{{display:block;width:10px;height:10px;transform:rotate(45deg);background:{GOLD}}}
 .tag{{top:1790px;font-family:'Montserrat',sans-serif;font-weight:400;font-size:40px;letter-spacing:.04em;color:#6b6457}}
@@ -93,9 +101,9 @@ html,body{{width:1600px;height:2000px}}
 <div class="c word">FIX FACE</div>
 <div class="c subrow"><i></i><span>AESTHETIC SOLUTIONS</span><i></i></div>
 <div class="panel">{qr_svg(800, "c")}</div>
-<div class="c handle">@fix.face.aesthetic</div>
-<div class="c cta"><span>SKAN ET</span><b></b><span>BİZİ İZLƏ</span></div>
+<div class="c handle">{P["handle"]}</div>
+<div class="c cta"><span>{P["cta"][0]}</span><b></b><span>{P["cta"][1]}</span></div>
 <div class="c tag">Gözəlliyə dəyər qatırıq!</div>
 </div></body></html>'''
-open("qr_card.html", "w", encoding="utf-8").write(card)
+open(P["out"] + "_card.html", "w", encoding="utf-8").write(card)
 print("version", qr.version, "modules", N, "paths", len(paths))
