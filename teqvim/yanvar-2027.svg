@@ -46,7 +46,7 @@
 <text x="105.35714285714285" y="216.15" text-anchor="middle" font-size="4.2" font-weight="500" fill="#B23A3A">30</text>
 <text x="121.78571428571426" y="216.15" text-anchor="middle" font-size="4.2" font-weight="500" fill="#B23A3A">31</text>
 <rect x="15" y="219.35" width="3.4" height="2.6" rx=".4" fill="none" stroke="#1D4B7D" stroke-width="0.35"/><text x="19.6" y="221.65" font-size="2.3" fill="#1F2430">1–2 Yanvar — Yeni il bayramı</text>
-<rect x="77" y="219.35" width="3.4" height="2.6" rx=".4" fill="none" stroke="#1D4B7D" stroke-width="0.3" stroke-dasharray="0.7 0.5"/><text x="81.6" y="221.65" font-size="2.3" fill="#1F2430">20 Yanvar — Ümumxalq Hüzn Günü</text>
+<rect x="55.8" y="219.35" width="3.4" height="2.6" rx=".4" fill="none" stroke="#1D4B7D" stroke-width="0.35" stroke-dasharray="0.7 0.5"/><text x="60.4" y="221.65" font-size="2.3" fill="#1F2430">20 Yanvar — Ümumxalq Hüzn Günü</text>
 <rect x="0" y="226" width="145" height="9" fill="#1D4B7D"/>
 <rect id="LOGO" x="55.5" y="227.5" width="34" height="6" fill="none" stroke="#fff" stroke-width="0.25" stroke-dasharray="1 0.7" opacity=".7"/><text x="72.5" y="231.4" text-anchor="middle" font-size="2.6" font-weight="600" fill="#fff" letter-spacing=".5">LOGO</text>
 </svg>
